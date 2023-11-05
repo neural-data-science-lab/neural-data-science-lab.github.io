@@ -1,36 +1,11 @@
 ---
-title: RT2 Lab
+title: Neurds Lab
 layout: homelay
 permalink: /
 ---
 
-The “Residual Tumor and Response to Treatment Laboratory” has four main goals.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
 
-**Identification of clinical and pathological factors correlated with the long-term prognosis of TNBC and HER2 positive breast cancer patients treated by neoadjuvant chemotherapy.**
+Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
 
-We have built a retrospective clinical, pathological and radiological database
-of breast cancer patients treated by neoadjuvant chemotherapy at Institut
-Curie since 2002. In triple-negative breast carcinoma (TNBC) we have
-highlighted a strong association between the lymph node involvement after
-neoadjuvant chemotherapy (NAC) and a poor prognosis outcome. We concluded
-that clinical trials should be implemented for high-risk patients after NAC
-(pN+, Elston Ellis Grade 3 and non menopausal status) to validate new
-therapeutic solutions.
-
-**Identification of robust biological-network driven gene-expression classification of TNBC and HER2 positive breast cancer to define new therapeutic interventions.**
-
-We identified a robust six metagene classification across 1125 TNBC
-gene-expression profiles. An immune metagene is highly correlated to the
-prognosis of these patients. These findings open up interesting opportunities
-for the development of new therapeutic interventions in TNBC.
-
-**Identification of dynamic markers of resistance in TNBC and HER2 positive breast cancer patients treated by neoadjuvant chemotherapy.**
-
-Using RNAsequencing, Whole Exome Sequencing and RPPA we are studying matched
-pre-treatment primary tumor biopsy and residual tumor after neoadjuvant
-treatment to identify modifications associated to resistance to
-systemic treatment.
-
-**High-througput screening of TNBC and HER2 positive breast cancer cell lines.**
-
-In order to identify efficient drugs to treat cancer patients, large screening programs have been launched with different setting of drugs and cancer cell lines (CCLE and CGP projects). We are developping 2D and 3D (magnetic levitation) breast cancer cell lines drug screening program with FDA approved drugs libraries.
+Morbi eget orci at tortor mollis vestibulum. Quisque faucibus velit at augue feugiat dignissim. Etiam sit amet finibus felis. Proin malesuada neque quis eros mollis, ac maximus est scelerisque. Donec lacinia, quam sit amet tincidunt porttitor, neque turpis pellentesque turpis, vel venenatis tellus purus at quam. In ut tempor ex. Nam finibus placerat felis. Aliquam mollis mi ex, non tincidunt urna dapibus in. Vestibulum sit amet eleifend orci. Duis auctor ligula elementum tempor interdum. Sed imperdiet interdum sollicitudin. Phasellus elementum aliquet varius. Donec fringilla pretium velit vel blandit. Vivamus cursus pulvinar lectus, vehicula ornare mi venenatis quis. Sed ut tortor quis quam venenatis sagittis.
