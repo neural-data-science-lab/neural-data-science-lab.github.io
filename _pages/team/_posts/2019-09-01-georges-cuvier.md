@@ -2,7 +2,7 @@
 layout: member
 category: postdoc
 title: Georges Cuvier
-image: minerve.jpg
+image: minerva.jpg
 role: Postdoctoral Researcher
 permalink: 'team/georges-cuvier'
 social:
