@@ -3,7 +3,7 @@ layout: member
 category: alumni
 title: Humphry Davy
 image: minerva.jpg
-role: PhD Student 
+role: Student 
 permalink: 'team/humphry-davy'
 social:
     twitter: 
