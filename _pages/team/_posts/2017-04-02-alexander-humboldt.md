@@ -1,6 +1,6 @@
 ---
 layout: member
-category: Staff
+category: staff
 title: 'Alexander von Humboldt'
 image: 'minerva.jpg'
 role: Group Leader
