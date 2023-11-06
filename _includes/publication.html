@@ -2,11 +2,6 @@
     <div class="media-body">
 
         <p>
-             <!-- Preview Image or Gif -->
-            {% if publi.Preview %}
-                <img src="{{ publi.Preview }}" alt="Preview">
-            {% endif }
-            
             <!-- author -->
             {{ publi.Author }},
 
@@ -27,7 +22,7 @@
 
             <!-- DOI -->
             {% if publi.DOI %}
-                <a href="https://doi.org/%7B%7Bpubli.DOI%7D%7D">DOI:%7B%7Bpubli.DOI%7D%7D</a>
+                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
             {% endif %}
         </p>
 
