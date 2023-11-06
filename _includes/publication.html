@@ -2,6 +2,10 @@
     <div class="media-body">
 
         <p>
+            <!-- Preview Image or Gif -->
+            {% if publi.Preview %}
+                <img src="{{ publi.Preview }}" alt="Preview" class="publication-preview">
+            {% endif }
             <!-- author -->
             {{ publi.Author }},
 
