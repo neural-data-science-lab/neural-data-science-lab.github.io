@@ -1,4 +1,17 @@
-[
+[     {
+        "Item Type": "journalArticle",
+        "Publication Year": 2012.0,
+        "Author": "Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L",
+        "Title": "Getting aligned on representational alignment",
+        "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
+        "Url": "https://arxiv.org/abs/2310.13018",
+        "Date": "2009-11-23",
+        "Pages": "649-657",
+        "Issue": 3.0,
+        "Volume": 23.0,
+        "Library Catalog": "Springer",
+        "Preview": "/assets/images/image1.png"
+     },
      {
         "Item Type": "journalArticle",
         "Publication Year": 2012.0,
