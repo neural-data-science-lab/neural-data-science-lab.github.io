@@ -1,4 +1,19 @@
 [
+     {
+        "Item Type": "journalArticle",
+        "Publication Year": 2012.0,
+        "Author": "Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton.",
+        "Title": "Imagenet classification with deep convolutional neural networks",
+        "DOI": "http://dx.doi.org/10.1145/3065386",
+        "Url": "https://www.researchgate.net/publication/267960550_ImageNet_Classification_with_Deep_Convolutional_Neural_Networks",
+        "Abstract Note": "I propose to consider the question, “Can machines think?”♣ This should begin with definitions of the meaning of the terms “machine” and “think”. The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous. If the meaning of the words “machine” and “think” are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, “Can machines think?” is to be sought in a statistical survey such as a Gallup poll.",
+        "Date": "2009-11-23",
+        "Pages": "649-657",
+        "Issue": 3.0,
+        "Volume": 23.0,
+        "Library Catalog": "Springer",
+        "Preview": "/assets/images/wave-mechanics.gif"
+    },
     {
         "Item Type": "journalArticle",
         "Publication Year": 1950.0,
