@@ -3,9 +3,10 @@
 
         <p>
             <!-- Preview Image or Gif -->
+            
             {% if publi.Preview %}
-                <img src="{{ publi.Preview }}" alt="Preview">
-            {% endif }
+                <img src="{{ publi.Preview }}" alt="Preview" style="max-width: 100px; margin-right: 10px;">
+            {% endif %}
             <!-- author -->
             {{ publi.Author }},
 
