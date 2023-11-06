@@ -1,30 +1,21 @@
-<li class="media mb-1">
-    <div class="media-body">
+---
+title: Publications
+layout: page
+excerpt: RT2 Lab -- Publications.
+permalink: /publications/
+---
 
-        <p>
-            <!-- author -->
-            {{ publi.Author }},
+<ul class="list-unstyled">
+    {% assign pub_list = site.data.publications | sort: 'Publication Year' | group_by: 'Publication Year' | reverse %}
 
-            <!-- year -->
-            {{ publi['Publication Year'] | to_integer }},
+    {% for group in pub_list %}
 
-            <!-- article title -->
-            "{{ publi.Title }}",
+        {% assign year = group.name | to_integer %}
 
-            <!-- journal -->
-            <span class="font-italic">{{ publi['Publication Title'] }}</span>,
+        <h3 class="mt-4">{{ year }}</h3>
+        {% for publi in group.items %}
+            {%- include publication.html -%}
+        {% endfor %}
 
-            {% if publi.Volume != "" and publi.Issue != "" and publi.Pages != "" %}
-                vol. {{ publi.Volume | to_integer }},
-                no. {{ publi.Issue | to_integer }},
-                pp. {{ publi.Pages }}
-            {% endif %}
-
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-        </p>
-
-    </div>
-</li>
+    {% endfor %}
+</ul>
