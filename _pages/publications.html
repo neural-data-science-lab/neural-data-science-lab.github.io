@@ -39,19 +39,24 @@ permalink: /publications/
 }
 
 #scrollToTopButton {
-    /* Existing styles */
-    transition: border-radius 0.3s, background-color 0.3s;
+    border: 2px solid #007bff; /* Blue border */
+    background-color: transparent;
+    color: #007bff; /* Blue text color */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #scrollToTopButton:hover {
-    background-color: #0056b3;
-    border-radius: 70%;
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+    border: 2px solid #007bff; /* Ensure the border stays blue on hover */
 }
 
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
 }
+
+  
 </style>
 
 <ul class="list-unstyled">
