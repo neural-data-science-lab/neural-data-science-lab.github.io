@@ -4,7 +4,7 @@ layout: page
 excerpt: RT2 Lab -- Publications.
 permalink: /publications/
 ---
-<button id="scrollToTopButton"  class="btn btn-light" onclick="scrollToTop()">Top</button>
+<button id="scrollToTopButton"  class="btn btn-light" onclick="scrollToTop()"></button>
 
 <script>
   // JavaScript code for scroll-to-top functionality
@@ -40,11 +40,12 @@ permalink: /publications/
 
 #scrollToTopButton:hover {
     background-color: #0056b3;
-    border-radius: 50%; /* Makes the button round on hover */
+    border-radius: 50%; /* Makes the button completely round on hover */
 }
 
-#scrollToTopButton:hover::after {
-    content: "^"; /* Change text to "^" on hover */
+#scrollToTopButton::before {
+    content: "^"; /* Replace text with "^" */
+    font-weight: bold;
 }
 </style>
 
