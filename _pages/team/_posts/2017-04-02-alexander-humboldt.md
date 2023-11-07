@@ -12,7 +12,7 @@ social:
     github: https://github.com/neural-data-science-lab
     website: https://imprs-coni.mpg.de/nico-scherf
     orcid:
-    reserach-gate: https://www.researchgate.net/profile/Karsten-Mueller-5
+    research-gate: https://www.researchgate.net/profile/Karsten-Mueller-5
 education:
 - "Leipzig University"
 ---
