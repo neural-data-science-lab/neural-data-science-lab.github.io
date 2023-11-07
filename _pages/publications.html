@@ -24,6 +24,25 @@ permalink: /publications/
   }
 </script>
 
+<style>
+#scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+    background-color: #0056b3;
+}
+</style>
+
 <ul class="list-unstyled">
     {% assign pub_list = site.data.publications | sort: 'Publication Year' | group_by: 'Publication Year' | reverse %}
 
