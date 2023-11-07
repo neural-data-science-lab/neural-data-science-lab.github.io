@@ -6,12 +6,13 @@ image: 'minerva.jpg'
 role: Group Leader
 permalink: 'team/alexander-humboldt'
 social:
-    twitter: 
-    linkedin: 
-    google-scholar: 
-    github:
-    website:
+    twitter: https://twitter.com/nicoscherf
+    linkedin: https://www.linkedin.com/in/nico-scherf-008549b6/?originalSubdomain=de
+    google-scholar: https://scholar.google.de/citations?user=mRKOyBIAAAAJ&hl=de
+    github: https://github.com/neural-data-science-lab
+    website: https://imprs-coni.mpg.de/nico-scherf
     orcid:
+    reserachgate: https://www.researchgate.net/profile/Karsten-Mueller-5
 education:
 - "Leipzig University"
 ---
