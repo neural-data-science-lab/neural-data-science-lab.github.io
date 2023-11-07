@@ -19,11 +19,7 @@
             <!-- journal -->
             <span class="font-italic">{{ publi['Publication Title'] }}</span>,
 
-            {% if publi.Volume != "" and publi.Issue != "" and publi.Pages != "" %}
-                vol. {{ publi.Volume | to_integer }},
-                no. {{ publi.Issue | to_integer }},
-                pp. {{ publi.Pages }}
-            {% endif %}
+
 
             <!-- DOI -->
             {% if publi.DOI %}
