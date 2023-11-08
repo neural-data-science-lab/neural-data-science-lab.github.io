@@ -6,7 +6,8 @@
         "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
         "Url": "https://arxiv.org/abs/2310.13018",
         "Date": "2009-11-23",
-        "Preview": "/assets/images/image2.webp"
+        "Preview": "/assets/images/image2.webp",
+        "Journal": "Nature"
      },
         {
         "Item Type": "journalArticle",
@@ -16,6 +17,7 @@
         "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
         "Url": "https://arxiv.org/abs/2310.13018",
         "Date": "2009-11-23",
+        "Journal": "Arvix",
         "Preview": "/assets/images/image1.PNG"
      },
      {
