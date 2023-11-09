@@ -38,6 +38,7 @@ permalink: /publications/
 }
 
 #scrollToTopButton {
+    position: relative;
     background-color: #0A6B65; /* Blue background on hover */
     color: #fff; /* White text color on hover */
     border: 2px solid #0A6B65; /* Ensure the border stays blue on hover */
@@ -46,13 +47,14 @@ permalink: /publications/
 
 #scrollToTopButton:hover::before {
     content: "^"; /* Change content to a big "^" on hover */
-    font-size: 60px; /* Adjust the font size as needed */
+    font-size: 48px; /* Adjust the font size as needed */
     position: absolute;
-    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #scrollToTopButton:hover{
-    content:"";
     background-color: transparent;
     color: #0A6B65; /* Blue text color */
 }
