@@ -46,7 +46,7 @@ permalink: /publications/
 
 #scrollToTopButton:hover::before {
     content: "^"; /* Change content to a big "^" on hover */
-    font-size: 48px; /* Adjust the font size as needed */
+    font-size: 24px; /* Set a maximum font size */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,7 +55,7 @@ permalink: /publications/
     text-align: center; /* Center the content horizontally */
 }
 
-#scrollToTopButton:hover{
+#scrollToTopButton:hover {
     background-color: transparent;
     color: #0A6B65; /* Blue text color */
     border-radius: 50%;
@@ -64,11 +64,14 @@ permalink: /publications/
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
-  
+    visibility: hidden; /* Initially hide the "Top" text */
 }
 
+#scrollToTopButton:hover::before {
+    visibility: visible; /* Show the "^" symbol on hover */
+}
+This should ensure that the "^" symbol does not exceed the button size. Adjust the font size and other styles as needed.
 
-  
 </style>
 
 <ul class="list-unstyled">
