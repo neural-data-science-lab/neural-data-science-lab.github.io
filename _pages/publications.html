@@ -35,16 +35,15 @@ permalink: /publications/
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    box-shadow: none; /* Remove box-shadow */
-    outline: none; /* Remove browser's outline on focus */
-   transition: background-color 0.8s, color 0.8s; /* Slower transition */
+    box-shadow: none; /* Add this line to remove box-shadow */
+    outline: none; /* Add this line to remove the browser's outline */
 }
 
 #scrollToTopButton {
     background-color: #0A6B65; /* Blue background on hover */
     color: #fff; /* White text color on hover */
     border: 2px solid #0A6B65; /* Ensure the border stays blue on hover */
-    transition: border-radius 0.8s, background-color 0.8s, color 0.8s; 
+    transition: border-radius 0.4s, background-color 0.4s, color 0.4s; 
 }
 
 #scrollToTopButton:hover::before {
@@ -63,20 +62,17 @@ permalink: /publications/
     color: #0A6B65; /* Blue text color */
     border: none; /* Remove borders on hover */
     border-radius: 0; /* Remove border radius on hover */
-    box-shadow: none; /* Remove box-shadow on hover */
+    box-shadow: none; /* Add this line to remove box-shadow on hover */
 }
 
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    visibility: hidden; /* Initially hide the "Top" text */
 }
 
 #scrollToTopButton:hover::before {
-    visibility: hidden; /* Hide the "Top" text on hover */
+    visibility: visible; /* Show the "^" symbol on hover */
 }
 
 #scrollToTopButton:focus {
