@@ -38,22 +38,19 @@ permalink: /publications/
     box-shadow: none;
     outline: none;
     transition: background-color 0.8s, color 0.8s;
-    height: 40px; /* Adjust the height as needed */
-    overflow: hidden; /* Hide overflow content */
-}
-
-#scrollToTopButton::before {
-    content: "Top"; 
-    font-weight: bold;
-    visibility: visible;
-    display: block;
-    height: 100%; /* Ensure the pseudo-element takes the full height */
-    transition: opacity 0.8s; /* Add a transition for opacity */
 }
 
 #scrollToTopButton:hover::before {
-    content: "^"; /* Change content to a big "^" on hover */
-    font-size: 70px; /* Set the font size for the big "^" */
+    content: "^";
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    opacity: 1; /* Adjusted to keep the "^" visible */
+    transition: opacity 0.8s;
 }
 
 #scrollToTopButton:hover {
@@ -62,6 +59,21 @@ permalink: /publications/
     border: none;
     border-radius: 0;
     box-shadow: none;
+}
+
+#scrollToTopButton::before {
+    content: "Top";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hide the "Top" text */
+    transition: opacity 0.8s;
+}
+
+#scrollToTopButton:hover::before {
+    opacity: 0;
 }
 
 #scrollToTopButton:focus {
