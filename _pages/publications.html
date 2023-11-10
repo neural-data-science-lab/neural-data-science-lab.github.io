@@ -35,48 +35,38 @@ permalink: /publications/
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    box-shadow: none; /* Add this line to remove box-shadow */
-    outline: none; /* Add this line to remove the browser's outline */
-    transition: background-color 0.8s, color 0.8s; 
-}
-
-#scrollToTopButton {
-    background-color: #0A6B65; /* Blue background on hover */
-    color: #fff; /* White text color on hover */
-    border: 2px solid #0A6B65; /* Ensure the border stays blue on hover */
-    transition: border-radius 0.8s, background-color 0.8s, color 0.8s; 
-}
-
-#scrollToTopButton:hover::before {
-    content: "^"; /* Change content to a big "^" on hover */
-    font-size: 72px; /* Set a maximum font size */
-    position: absolute;
-
-    width: 100%; /* Ensure the content takes the full width of the button */
-    text-align: center; /* Center the content horizontally */
-}
-
-#scrollToTopButton:hover {
-    background-color: transparent;
-    color: #0A6B65; /* Blue text color */
-    border: none; /* Remove borders on hover */
-    border-radius: 0; /* Remove border radius on hover */
-    box-shadow: none; /* Add this line to remove box-shadow on hover */
+    box-shadow: none;
+    outline: none;
+    transition: background-color 0.8s, color 0.8s;
+    height: 40px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide overflow content */
 }
 
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
-    visibility: visible; /* Initially hide the "Top" text */
+    visibility: visible;
+    display: block;
+    height: 100%; /* Ensure the pseudo-element takes the full height */
 }
 
 #scrollToTopButton:hover::before {
-    visibility: visible; /* Show the "^" symbol on hover */
+    content: "^";
+    font-size: 72px;
+}
+
+#scrollToTopButton:hover {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 #scrollToTopButton:focus {
-    outline: none; /* Ensure no outline on focus */
+    outline: none;
 }
+
 </style>
 
 <ul class="list-unstyled">
