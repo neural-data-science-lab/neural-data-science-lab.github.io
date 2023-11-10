@@ -32,25 +32,24 @@ permalink: /publications/
     right: 20px;
     background-color: #0A6B65;
     color: #fff;
-    border: none;
+    border: 2px solid #0A6B65;
     padding: 10px 20px;
     cursor: pointer;
     box-shadow: none;
     outline: none;
-    transition: background-color 0.8s, color 0.8s;
+    transition: background-color 0.8s, color 0.8s, border-radius 0.8s;
 }
 
 #scrollToTopButton:hover::before {
     content: "^";
-    font-size: 64px; /* Adjust font size as needed */
+    font-size: 72px; /* Set a maximum font size */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    opacity: 1;
-    transition: opacity 0.8s;
+    visibility: visible;
 }
 
 #scrollToTopButton:hover {
@@ -64,16 +63,15 @@ permalink: /publications/
 #scrollToTopButton::before {
     content: "Top";
     font-weight: bold;
+    visibility: visible;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.8s;
 }
 
 #scrollToTopButton:hover::before {
-    opacity: 0;
+    visibility: hidden;
 }
 
 #scrollToTopButton:focus {
