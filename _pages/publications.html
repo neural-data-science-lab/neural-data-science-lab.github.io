@@ -29,65 +29,56 @@ permalink: /publications/
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 20px; /* Adjusted to ensure the button is on the right */
     background-color: #0A6B65;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    box-shadow: none; /* Add this line to remove box-shadow */
-    outline: none; /* Add this line to remove the browser's outline */
+    box-shadow: none;
+    outline: none;
     transition: background-color 0.8s, color 0.8s;
 }
 
-#scrollToTopButton {
-    background-color: #0A6B65; /* Blue background on hover */
-    color: #fff; /* White text color on hover */
-    border: 2px solid #0A6B65; /* Ensure the border stays blue on hover */
-    transition: border-radius 0.8s, background-color 0.8s, color 0.8s;
-    position: relative; /* Add relative positioning */
-}
-
 #scrollToTopButton:hover::before {
-    content: "^"; /* Change content to a big "^" on hover */
-    font-size: 60px; /* Set a maximum font size */
+    content: "^";
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%; /* Ensure the content takes the full width of the button */
-    text-align: center; /* Center the content horizontally */
-    opacity: 0; /* Initially hide the "Top" text */
-    transition: opacity 0.8s; /* Slower opacity transition */
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.8s;
 }
 
 #scrollToTopButton:hover {
     background-color: transparent;
-    color: #0A6B65; /* Blue text color */
-    border: none; /* Remove borders on hover */
-    border-radius: 0; /* Remove border radius on hover */
-    box-shadow: none; /* Remove box-shadow on hover */
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 #scrollToTopButton::before {
-    content: "Top"; 
+    content: "Top";
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 1; /* Initially show the "Top" text */
-    transition: opacity 0.8s; /* Slower opacity transition */
+    opacity: 1;
+    transition: opacity 0.8s;
 }
 
 #scrollToTopButton:hover::before {
-    opacity: 0; /* Hide the "Top" text on hover */
+    opacity: 0;
 }
 
 #scrollToTopButton:focus {
-    outline: none; /* Ensure no outline on focus */
+    outline: none;
 }
-
 </style>
 
 <ul class="list-unstyled">
