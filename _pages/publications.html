@@ -35,16 +35,17 @@ permalink: /publications/
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    box-shadow: none; /* Add this line to remove box-shadow */
-    outline: none; /* Add this line to remove the browser's outline */
-    transition: background-color 0.8s, color 0.8s; 
+    box-shadow: none; /* Remove box-shadow */
+    outline: none; /* Remove browser's outline on focus */
+    transition: background-color 0.8s, color 0.8s;
 }
 
 #scrollToTopButton {
     background-color: #0A6B65; /* Blue background on hover */
     color: #fff; /* White text color on hover */
     border: 2px solid #0A6B65; /* Ensure the border stays blue on hover */
-    transition: border-radius 0.8s, background-color 0.8s, color 0.8s; 
+    transition: border-radius 0.8s, background-color 0.8s, color 0.8s;
+    position: relative; /* Add relative positioning */
 }
 
 #scrollToTopButton:hover::before {
@@ -56,6 +57,8 @@ permalink: /publications/
     transform: translate(-50%, -50%);
     width: 100%; /* Ensure the content takes the full width of the button */
     text-align: center; /* Center the content horizontally */
+    opacity: 0; /* Initially hide the "Top" text */
+    transition: opacity 0.8s; /* Slower opacity transition */
 }
 
 #scrollToTopButton:hover {
@@ -63,17 +66,22 @@ permalink: /publications/
     color: #0A6B65; /* Blue text color */
     border: none; /* Remove borders on hover */
     border-radius: 0; /* Remove border radius on hover */
-    box-shadow: none; /* Add this line to remove box-shadow on hover */
+    box-shadow: none; /* Remove box-shadow on hover */
 }
 
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
-    visibility: visible; /* Initially hide the "Top" text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1; /* Initially show the "Top" text */
+    transition: opacity 0.8s; /* Slower opacity transition */
 }
 
 #scrollToTopButton:hover::before {
-    visibility: visible; /* Show the "^" symbol on hover */
+    opacity: 0; /* Hide the "Top" text on hover */
 }
 
 #scrollToTopButton:focus {
