@@ -48,11 +48,11 @@ permalink: /publications/
     visibility: visible;
     display: block;
     height: 100%; /* Ensure the pseudo-element takes the full height */
+    transition: opacity 0.8s; /* Add a transition for opacity */
 }
 
 #scrollToTopButton:hover::before {
-    content: "^";
-    font-size: 72px;
+    opacity: 0; /* Hide the "Top" text on hover */
 }
 
 #scrollToTopButton:hover {
