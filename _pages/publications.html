@@ -36,48 +36,48 @@ permalink: /publications/
     padding: 10px 20px;
     cursor: pointer;
     box-shadow: none;
-    outline: none;
-    transition: background-color 0.8s, color 0.8s;
+    outline: none; / Add this line to remove the browser's outline /
+    transition: background-color 0.8s, color 0.8s; 
+}
+
+#scrollToTopButton {
+    background-color: #0A6B65; / Blue background on hover /
+    color: #fff; / White text color on hover /
+    border: 2px solid #0A6B65; / Ensure the border stays blue on hover /
+    transition: border-radius 0.8s, background-color 0.8s, color 0.8s; 
 }
 
 #scrollToTopButton:hover::before {
-    content: "^";
-    font-size: 60px;
+    content: "^"; / Change content to a big "^" on hover /
+    font-size: 60px; / Set a maximum font size /
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    opacity: 1; /* Adjusted to keep the "^" visible */
-    transition: opacity 0.8s;
+    width: 100%; / Ensure the content takes the full width of the button /
+    text-align: center; / Center the content horizontally /
 }
 
 #scrollToTopButton:hover {
     background-color: transparent;
-    color: #0A6B65;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
+    color: #0A6B65; / Blue text color /
+    border: none; / Remove borders on hover /
+    border-radius: 0; / Remove border radius on hover /
+    box-shadow: none; / Add this line to remove box-shadow on hover /
 }
 
 #scrollToTopButton::before {
-    content: "Top";
+    content: "Top"; 
     font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0; /* Initially hide the "Top" text */
-    transition: opacity 0.8s;
+    visibility: visible; / Initially hide the "Top" text /
 }
 
 #scrollToTopButton:hover::before {
-    opacity: 0;
+    visibility: visible; / Show the "^" symbol on hover /
 }
 
 #scrollToTopButton:focus {
-    outline: none;
+    outline: none; / Ensure no outline on focus */
 }
 </style>
 
