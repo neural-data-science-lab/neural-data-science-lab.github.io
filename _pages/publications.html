@@ -69,17 +69,15 @@ permalink: /publications/
 #scrollToTopButton::before {
     content: "Top"; 
     font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1; /* Initially show the "Top" text */
-    transition: opacity 0.8s; /* Slower opacity transition */
+    visibility: visible; /* Initially hide the "Top" text */
 }
 
+#scrollToTopButton:hover::before {
+    visibility: visible; /* Show the "^" symbol on hover */
+}
 
 #scrollToTopButton:focus {
-    opacity: 0; /* Ensure no outline on focus */
+    outline: none; /* Ensure no outline on focus */
 }
 </style>
 
