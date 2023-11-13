@@ -13,7 +13,6 @@ social:
     website: 
     orcid: 
     research-gate: 
-Year: 2021
 ---
 
 
