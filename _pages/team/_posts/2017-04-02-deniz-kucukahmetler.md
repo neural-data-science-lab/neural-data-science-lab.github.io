@@ -3,7 +3,7 @@ layout: member
 category: alumni
 title: Deniz Kucukahmetler
 image: minerva.jpg
-role: Research Intern - 2021
+role: Research Intern 
 permalink: 'team/deniz-kucukahmetler'
 social:
     twitter: 
@@ -13,6 +13,7 @@ social:
     website: 
     orcid: 
     research-gate: 
+Year: 2021
 ---
 
 
