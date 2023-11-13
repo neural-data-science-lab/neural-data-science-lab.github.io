@@ -7,7 +7,7 @@ role: Research Intern
 permalink: 'team/deniz-kucukahmetler'
 social:
     twitter: 
-    linkedin: 
+    linkedin: www.linkedin.com/in/denizkucukahmetler
     google-scholar: 
     github: 
     website: 
