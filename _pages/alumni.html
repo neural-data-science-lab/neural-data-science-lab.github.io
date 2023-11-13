@@ -6,7 +6,7 @@ permalink: /alumni/
 
 
 
-{% assign members = site.alumni | where: 'category', 'staff' | sort: 'date' %}
+{% assign members = site.team.alumni | where: 'category', 'staff' | sort: 'date' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
