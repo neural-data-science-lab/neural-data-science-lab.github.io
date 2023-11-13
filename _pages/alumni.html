@@ -4,10 +4,9 @@ layout: page
 permalink: /alumni/
 ---
 
-<!-- Staff -->
-<h2 class="mb-3"><a id="staff"></a>Alumni</h2>
 
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+
+{% assign members = site.alumni | where: 'category', 'staff' | sort: 'date' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
