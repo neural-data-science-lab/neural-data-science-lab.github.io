@@ -1,6 +1,6 @@
 ---
 layout: member
-category: alumni
+category: students
 title: William Harvey
 image: minerva.jpg
 role: Student
