@@ -1,6 +1,6 @@
 ---
 title: Our Research
-layout: ourrearch
+layout: ourresearch
 permalink: /ourresearch
 ---
 
