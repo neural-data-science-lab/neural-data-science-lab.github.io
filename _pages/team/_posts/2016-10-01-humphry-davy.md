@@ -1,6 +1,6 @@
 ---
 layout: member
-category: students
+category: student
 title: Humphry Davy
 image: minerva.jpg
 role: Student 
