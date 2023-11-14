@@ -7,7 +7,7 @@ permalink: /ourresearch
 <style>
     /* Add this style to increase the font size of the list */
     .custom-list {
-        font-size: 16px; /* Adjust the font size as needed */
+        font-size: 20px; /* Adjust the font size as needed */
     }
 </style>
 
