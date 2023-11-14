@@ -3,6 +3,15 @@ title: Our Research
 layout: ourresearch
 permalink: /ourresearch
 ---
+How can a network of cells perceive, represent and make sense of the world around it? 
+
+Experimental techniques such as high-resolution, multi-modal magnetic resonance imaging, light-sheet microscopy, or single-cell sequencing provide unprecedented insights into the structures and processes of neural systems and life in general. However, these methods yield high-dimensional data with intricate structures and dependencies that can be challenging to interpret. 
+
+We want to help uncover the underlying patterns. With our research, we want to contribute conceptual and computational tools to map, explore, and understand the manifolds of neural data that help us improve neuroscience and AI research and clinical practice in three complementary areas:
+
+1. [Manifold Learning](#manifold-learning)
+2. [Representation Learning](#representation-learning)
+3. [Computational Neuroscience/NeuroAI](#computational-neuroscience-neuroai)
 
 ### Manifold Learning
 
