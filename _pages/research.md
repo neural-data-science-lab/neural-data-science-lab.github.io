@@ -9,7 +9,7 @@ permalink: /ourresearch
     .custom-list {
         font-size: 18px; /* Adjust the font size as needed */
     }
-    img {
+    .img {
         max-width: 400px;
         margin-right: 10px;
         margin-top: 15px;
@@ -32,7 +32,7 @@ We want to help uncover the underlying patterns. With our research, we want to c
 ### Manifold Learning
 
 
-<img src="/assets/images/image2.webp" alt="Manifold Learning" >
+<img src="/assets/images/image2.webp" alt="Manifold Learning" class="img">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
 
@@ -42,7 +42,7 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 
 ### Representation Learning
 
-<img src="/assets/images/image1.PNG" alt="Manifold Learning" >
+<img src="/assets/images/image1.PNG" alt="Manifold Learning" class="img">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
 
@@ -53,7 +53,7 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 ## Computational Neuroscience/NeuroAI
 
 
-<img src="/assets/images/image3.webp" alt="Manifold Learning" >
+<img src="/assets/images/image3.webp" alt="Manifold Learning" class="img">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
 
