@@ -38,6 +38,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commo
 
 Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
 
+##### Selected Publications
+
+- Author 1, Author 2, et al. (Year). *Title of Publication 1.* Journal Name, Volume(Issue), Page Range. [Link to Publication]
+
+
+
 ---
 
 ### Representation Learning
