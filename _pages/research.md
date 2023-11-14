@@ -40,9 +40,9 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 
 ##### Selected Publications
 
-- Author 1, Author 2, et al. (Year). *Title of Publication 1.* Journal Name, Volume(Issue), Page Range. [Link to Publication]
-
-
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
 
 ---
 
@@ -54,6 +54,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commo
 
 Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
 
+##### Selected Publications
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
+
 ---
 
 ## Computational Neuroscience/NeuroAI
@@ -64,3 +69,8 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
 
 Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
+
+##### Selected Publications
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
