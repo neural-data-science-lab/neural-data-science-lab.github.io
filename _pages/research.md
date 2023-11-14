@@ -40,9 +40,9 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 
 ##### Selected Publications
 
-- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
-- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
-- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature. [https://www.nature.com/articles/s41586-023-06031-6]
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature.[https://www.nature.com/articles/s41586-023-06031-6]
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature.[https://www.nature.com/articles/s41586-023-06031-6]
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", Nature.[https://www.nature.com/articles/s41586-023-06031-6]
 
 ---
 
@@ -55,9 +55,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commo
 Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
 
 ##### Selected Publications
-- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
-- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
-- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix. [https://arxiv.org/abs/2310.13018]
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix.[https://arxiv.org/abs/2310.13018]
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix.[https://arxiv.org/abs/2310.13018]
+- Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L, 2023, "Getting aligned on representational alignment", Arvix.[https://arxiv.org/abs/2310.13018]
 
 ---
 
@@ -71,6 +71,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commo
 Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed dui elit. Proin tempus tortor lobortis elementum faucibus. Duis quis arcu dictum, convallis nisi eget, pharetra lorem. Proin finibus, ex non fringilla luctus, nisl nunc sagittis ex, vel pulvinar nisl nulla sed orci. Integer mauris tellus, consequat quis blandit interdum, ultricies nec arcu. Suspendisse potenti. Donec bibendum diam enim, eu sollicitudin diam lacinia ac. Sed sem massa, pretium ac elit non, euismod tincidunt leo. Pellentesque eget luctus nisl, at eleifend lectus. Pellentesque non hendrerit tellus. Etiam id magna ac ex porttitor mattis vitae nec massa. Duis id ligula ut magna finibus vulputate.
 
 ##### Selected Publications
-- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
-- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
-- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications. [https://www.nature.com/articles/s41467-023-37180-x]
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications.[https://www.nature.com/articles/s41467-023-37180-x]
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications.[https://www.nature.com/articles/s41467-023-37180-x]
+- Zador, A., Escola, S., Richards, B., Ölveczky, B., Bengio, Y., Boahen, K., ... & Tsao, D, 2023, "Catalyzing next-generation artificial intelligence through neuroai", Nature communications.[https://www.nature.com/articles/s41467-023-37180-x]
+
+---
