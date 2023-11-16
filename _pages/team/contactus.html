@@ -3,9 +3,28 @@ title: Contact Us
 layout: page
 permalink: /contactus/
 ---
-<div>
-    <img class="img-cover mb-3" src="/assets/images/team.jpg" style="max-height: 700px; margin-top: -25px;">
-</div>
+<h3 class="mb-3"><a id="staff"></a>General Inquires</h3>
+
+<p>For general questions regarding lab, please contact Nancy Muschall.</p>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <i class="fas fa-phone-alt mr-2"></i> Phone: +49 341 9940-7412
+        </li>
+        <li class="list-group-item">
+            <i class="fas fa-fax mr-2"></i> Fax: +49 341 9940-4524
+        </li>
+        <li class="list-group-item">
+            <i class="far fa-envelope mr-2"></i> Email: muschall@gmail.com
+        </li>
+    </ul>
+
+<ul class="list-group">
+        <li class="list-group-item">For general questions regarding lab, please contact Nancy Muschall. Email: muschall@cbs.mpg.de/li>
+        <li class="list-group-item">For applications, please check out the section below.</li>
+        <li class="list-group-item">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+        <li class="list-group-item">Item 5</li>
+    </ul>
 
 <!-- Staff -->
 <h2 class="mb-3"><a id="staff"></a>Team</h2>
@@ -26,62 +45,4 @@ permalink: /contactus/
 </div>
 </ul>
 
-<!-- Researchers -->
-<h2 class="mb-3"><a id="researcher"></a>Scientific Researchers</h2>
 
-{% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
-<ul class="list-unstyled">
-<div class="row">
-{% for member in members%}
-    {% assign ncols = 2 %}
-    {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
-            {%- include team_member.html -%}
-        </div>
-    {% if i == 1 %}
-        </div><div class="row">
-    {% endif %}
-{% endfor %}
-</div>
-</ul>
-
-<!-- PhD Students -->
-<h2 class="mb-3"><a id="student"></a>PhD Students</h2>
-
-{% assign members = site.posts | where: 'category', 'phd-student' | sort: 'date' %}
-<ul class="list-unstyled">
-<div class="row">
-{% for member in members%}
-    {% assign ncols = 2 %}
-    {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
-            {%- include team_member.html -%}
-        </div>
-    {% if i == 1 %}
-        </div><div class="row">
-    {% endif %}
-{% endfor %}
-</div>
-</ul>
-
-<!-- Students -->
-<h2 class="mb-3"><a id="alumni"></a>Students</h2>
-
-{% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
-<ul class="list-unstyled">
-<div class="row">
-{% for member in members%}
-    {% assign ncols = 2 %}
-    {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
-            {%- include team_member.html -%}
-        </div>
-    {% if i == 1 %}
-        </div><div class="row">
-    {% endif %}
-{% endfor %}
-</div>
-</ul>
-
-<!-- Alumni -->
-<h4 class="mb-3"><a id="alumni" href="/alumni">Lab Alumni</a></h4>
