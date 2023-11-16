@@ -28,27 +28,32 @@ layout: default
 <p class="list">For applications to join our vibrant team, please read the following section.</p>
 <br>
     <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
+  
+    {% contentblock "open-positions.md" %}
+        {% block "Internships" %}
+            <div class="mb-3">
+                {{ content | markdownify }}
+            </div>
+        {% endblock %}
 
-    {% capture internships_content %}{% include_relative open-positions.md start="## Internships" end="## Master's Thesis" %}{% endcapture %}
-    {% capture masters_thesis_content %}{% include_relative open-positions.md start="## Master's Thesis" end="## Ph.D. Applications" %}{% endcapture %}
-    {% capture phd_applications_content %}{% include_relative open-positions.md start="## Ph.D. Applications" end="## PostDoc Applications" %}{% endcapture %}
-    {% capture postdoc_applications_content %}{% include_relative open-positions.md start="## PostDoc Applications" end="" %}{% endcapture %}
+        {% block "Master's Thesis" %}
+            <div class="mb-3">
+                {{ content | markdownify }}
+            </div>
+        {% endblock %}
 
-    <div class="mb-3">
-        {{ internships_content | markdownify }}
-    </div>
+        {% block "Ph.D. Applications" %}
+            <div class="mb-3">
+                {{ content | markdownify }}
+            </div>
+        {% endblock %}
 
-    <div class="mb-3">
-        {{ masters_thesis_content | markdownify }}
-    </div>
-
-    <div class="mb-3">
-        {{ phd_applications_content | markdownify }}
-    </div>
-
-    <div class="mb-3">
-        {{ postdoc_applications_content | markdownify }}
-    </div>
+        {% block "PostDoc Applications" %}
+            <div class="mb-3">
+                {{ content | markdownify }}
+            </div>
+        {% endblock %}
+    {% endcontentblock %}
 
 
 
