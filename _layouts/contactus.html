@@ -29,31 +29,36 @@ layout: default
 <br>
     <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
   
-    {% contentblock "open-positions.md" %}
-        {% block "Internships" %}
-            <div class="mb-3">
-                {{ content | markdownify }}
-            </div>
-        {% endblock %}
 
-        {% block "Master's Thesis" %}
-            <div class="mb-3">
-                {{ content | markdownify }}
-            </div>
-        {% endblock %}
+    {% capture open_positions_content %}{% include_relative open-positions.md %}{% endcapture %}
 
-        {% block "Ph.D. Applications" %}
-            <div class="mb-3">
-                {{ content | markdownify }}
-            </div>
-        {% endblock %}
+    {% if open_positions_content contains "## Internships" %}
+        {% capture internships_content %}{% include_relative open-positions.md start="## Internships" end="## Master's Thesis" %}{% endcapture %}
+        <div class="mb-3">
+            {{ internships_content | markdownify }}
+        </div>
+    {% endif %}
 
-        {% block "PostDoc Applications" %}
-            <div class="mb-3">
-                {{ content | markdownify }}
-            </div>
-        {% endblock %}
-    {% endcontentblock %}
+    {% if open_positions_content contains "## Master's Thesis" %}
+        {% capture masters_thesis_content %}{% include_relative open-positions.md start="## Master's Thesis" end="## Ph.D. Applications" %}{% endcapture %}
+        <div class="mb-3">
+            {{ masters_thesis_content | markdownify }}
+        </div>
+    {% endif %}
+
+    {% if open_positions_content contains "## Ph.D. Applications" %}
+        {% capture phd_applications_content %}{% include_relative open-positions.md start="## Ph.D. Applications" end="## PostDoc Applications" %}{% endcapture %}
+        <div class="mb-3">
+            {{ phd_applications_content | markdownify }}
+        </div>
+    {% endif %}
+
+    {% if open_positions_content contains "## PostDoc Applications" %}
+        {% capture postdoc_applications_content %}{% include_relative open-positions.md start="## PostDoc Applications" end="" %}{% endcapture %}
+        <div class="mb-3">
+            {{ postdoc_applications_content | markdownify }}
+        </div>
+    {% endif %}
 
 
 
