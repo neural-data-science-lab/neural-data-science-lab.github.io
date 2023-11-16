@@ -12,10 +12,10 @@ Content for internships goes here.
 
 Content for master's thesis goes here.
 
-### Ph.D. Applications
+#### Ph.D. Applications
 
 Content for Ph.D. applications goes here.
 
-### PostDoc Applications
+#### PostDoc Applications
 
 Content for PostDoc applications goes here.
