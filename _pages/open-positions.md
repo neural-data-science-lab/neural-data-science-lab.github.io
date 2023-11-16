@@ -1,8 +1,4 @@
----
-title: Contact Us
-layout: contactus
-permalink: /contactus/
----
+
 
 ## Internships
 
