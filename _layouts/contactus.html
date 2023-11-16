@@ -29,11 +29,11 @@ layout: default
 <br>
     <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
 
-    {% capture internships_content %}{% include_relative open-positions.md start="## Internships" end="## Master's Thesis" %}{% endcapture %}
-    {% capture masters_thesis_content %}{% include_relative open-positions.md start="## Master's Thesis" end="## Ph.D. Applications" %}{% endcapture %}
-    {% capture phd_applications_content %}{% include_relative open-positions.md start="## Ph.D. Applications" end="## PostDoc Applications" %}{% endcapture %}
-    {% capture postdoc_applications_content %}{% include_relative open-positions.md start="## PostDoc Applications" end="" %}{% endcapture %}
-    
+    {% assign internships_content = internships_content | default: capture %}{% include_relative open-positions.md start="## Internships" end="## Master's Thesis" %}
+    {% assign masters_thesis_content = masters_thesis_content | default: capture %}{% include_relative open-positions.md start="## Master's Thesis" end="## Ph.D. Applications" %}
+    {% assign phd_applications_content = phd_applications_content | default: capture %}{% include_relative open-positions.md start="## Ph.D. Applications" end="## PostDoc Applications" %}
+    {% assign postdoc_applications_content = postdoc_applications_content | default: capture %}{% include_relative open-positions.md start="## PostDoc Applications" end="" %}
+
     <div class="mb-3">
         {{ internships_content | markdownify }}
     </div>
