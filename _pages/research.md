@@ -79,6 +79,6 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 
 **If you have a passion for the subjects mentioned and are eager to contribute to cutting-edge research, consider joining our dynamic team through opportunities such as Master's thesis projects, summer internships, or PhD studies. Explore our current open positions:**
 
-<div style="text-align: center;">
-  <a href="/contactus" class="btn btn-outline-primary " style="align-items: center;">Open Positions</a>
+<div style="text-align: center; align-items: center;">
+  <a href="/contactus" class="btn btn-outline-primary " style="">Open Positions</a>
 </div>
