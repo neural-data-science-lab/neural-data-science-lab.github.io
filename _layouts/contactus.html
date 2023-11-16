@@ -29,7 +29,8 @@ layout: default
 <br>
     <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
   
-  {% include_relative open-positions.md %}
+    {% capture open_positions_content %}{% include_relative open-positions.md %}{% endcapture %}
+    {{ open_positions_content | markdownify }}
 
 </div>
 
