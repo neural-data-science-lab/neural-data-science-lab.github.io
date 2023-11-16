@@ -34,21 +34,6 @@ layout: default
     {% capture phd_applications_content %}{% include_relative open-positions.md start="## Ph.D. Applications" end="## PostDoc Applications" %}{% endcapture %}
     {% capture postdoc_applications_content %}{% include_relative open-positions.md start="## PostDoc Applications" end="" %}{% endcapture %}
 
-    <div class="mb-3">
-        {{ internships_content | markdownify }}
-    </div>
-
-    <div class="mb-3">
-        {{ masters_thesis_content | markdownify }}
-    </div>
-
-    <div class="mb-3">
-        {{ phd_applications_content | markdownify }}
-    </div>
-
-    <div class="mb-3">
-        {{ postdoc_applications_content | markdownify }}
-    </div>
 
 
 </div>
