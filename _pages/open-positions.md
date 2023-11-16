@@ -4,18 +4,18 @@ layout: contactus
 permalink: /contactus/
 ---
 
-## Internships
+#### Internships
 
 Content for internships goes here.
 
-## Master's Thesis
+#### Master's Thesis
 
 Content for master's thesis goes here.
 
-## Ph.D. Applications
+### Ph.D. Applications
 
 Content for Ph.D. applications goes here.
 
-## PostDoc Applications
+### PostDoc Applications
 
 Content for PostDoc applications goes here.
