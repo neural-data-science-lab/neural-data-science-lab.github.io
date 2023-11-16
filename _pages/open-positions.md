@@ -4,8 +4,6 @@ layout: contactus
 permalink: /contactus/
 ---
 
-# Open Positions
-
 ## Internships
 
 Content for internships goes here.
