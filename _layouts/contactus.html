@@ -29,23 +29,8 @@ layout: default
 </div>
 <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
   
-{% capture open_positions_content %}
-  {% include_relative open-positions.md %}
-{% endcapture %}
-
-{% assign lines = open_positions_content | newline_to_br | split: '<br />' %}
-{% assign skip = false %}
-
-{% for line in lines %}
-  {% if line contains '---' %}
-    {% assign skip = true %}
-    {% continue %}
-  {% endif %}
-
-  {% if skip %}
-    {{ line }}
-  {% endif %}
-{% endfor | markdownify %}
+{% capture open_positions_content %}{% include_relative open-positions.md %}{% endcapture %}
+{{ open_positions_content | markdownify | replace: '<p>---</p>', '' }}
 
 
 
