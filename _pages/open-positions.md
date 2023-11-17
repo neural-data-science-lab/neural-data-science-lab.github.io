@@ -16,7 +16,7 @@ Content for master's thesis goes here.
 
 #### Ph.D. Applications
 
-For Ph.D. applications please 
+If you are interested in our research interests and would like to do a Ph.D. with us, please refer to the following [Application Process](https://imprs-coni.mpg.de/application-process)
 
 #### PostDoc Applications
 
