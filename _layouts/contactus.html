@@ -30,7 +30,7 @@ layout: default
 <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
   
 {% capture open_positions_content %}{% include_relative open-positions.md %}{% endcapture %}
-{{ open_positions_content | markdownify | replace: '<p>---</p>', '' }}
+{{ open_positions_content | markdownify | replace: '<p>title: Contact Us layout: contactus permalink: /contactus/ —</p>', '' }}
 
 
 
