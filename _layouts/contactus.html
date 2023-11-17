@@ -26,13 +26,11 @@ layout: default
         </li>
     </ul>
 <p class="list">For applications to join our vibrant team, please read the following section.</p>
+</div>
 <h3 class="mb-3"><a id="staff"></a>Open Positions</h3>
   
     {% capture open_positions_content %}{% include_relative open-positions.md %}{% endcapture %}
     {{ open_positions_content | remove: '---' | markdownify }}
-
-</div>
-
 
 
 
