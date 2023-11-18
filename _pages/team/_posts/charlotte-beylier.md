@@ -3,18 +3,17 @@ layout: member
 category: phd-student
 title: Charlotte Beylier
 image: minerva.jpg
-role: PhD Student 
+role: PhD Student
 permalink: 'team/charlotte-beylier'
 social:
     twitter: 
-    linkedin: 
-    google-scholar: 
+    google-scholar:
     github: 
     website: 
     orcid: 
-    research-gate: 
+    research-gate:
 education:
- - Leipzig University
+ - "Leipzig University"
 ---
 
-Quisque ullamcorper posuere risus, et tristique neque elementum at. Phasellus vitae ultricies quam. Sed posuere nec mi ut consectetur. Nam quis purus ante. Fusce non lectus efficitur mi vulputate pharetra. Nullam ultrices ante ut nisi congue lobortis. Phasellus ac rutrum est, eget laoreet purus. Sed finibus diam erat, ultricies lobortis velit suscipit at. Donec tincidunt eget purus vitae lacinia. Curabitur malesuada sem sit amet euismod interdum. Quisque ut finibus odio, vel scelerisque magna. Suspendisse convallis tortor ac ligula aliquam dictum. Nunc pharetra nunc et nunc rutrum, id molestie augue posuere. Vestibulum et convallis nulla, nec aliquet nisi.
+Ut varius cursus ante. Vestibulum sapien lorem, pretium in viverra sit amet, pellentesque nec elit. Suspendisse potenti. Aenean commodo lorem quam, eget egestas arcu aliquet ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vitae lectus at felis ullamcorper porta. Aliquam tempor malesuada nunc. Fusce lobortis fringilla neque, elementum porttitor tortor condimentum vel. Sed nec leo non metus euismod consequat sed vel turpis. Sed faucibus tortor dui. Aliquam ultricies sapien mauris, ut fermentum nisl malesuada nec. Nulla scelerisque ligula nulla, vel aliquet elit venenatis nec. Vestibulum congue id ipsum non laoreet.
