@@ -27,6 +27,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+collections:
+  staff:
+    output: true
+    permalink: /staff/:title
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
