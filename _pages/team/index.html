@@ -29,20 +29,16 @@ permalink: /team/
 <!-- Researchers -->
 <h2 class="mb-3"><a id="researcher"></a>Scientific Researchers</h2>
 
-{% assign members = site.posts | where: 'category', 'postdoc' %}
 <ul class="list-unstyled">
-<div class="row">
-{% for member in members%}
-    {% assign ncols = 2 %}
-    {% assign i = forloop.index0 | modulo: ncols %}
+  <div class="row">
+    {% for article in site.posts %}
+      {% if article.category == 'phd-student' %}
         <div class="col">
-            {%- include team_member.html -%}
+          {%- include team_member.html -%}
         </div>
-    {% if i == 1 %}
-        </div><div class="row">
-    {% endif %}
-{% endfor %}
-</div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </ul>
 
 <!-- PhD Students -->
