@@ -28,7 +28,7 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  posts:
+  staff:
     output: true
     source: "_pages/team/staff/"
 
