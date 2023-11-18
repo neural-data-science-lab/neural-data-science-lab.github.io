@@ -47,8 +47,8 @@ permalink: /team/
 
 <!-- PhD Students -->
 <h2 class="mb-3"><a id="student"></a>PhD Students</h2>
-
-{% assign members = site.staff | where: 'category', 'phd-student' %}
+{% for article in site.posts %}
+{% assign members = article | where: 'category', 'phd-student' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
@@ -61,6 +61,7 @@ permalink: /team/
         </div><div class="row">
     {% endif %}
 {% endfor %}
+{% endfor %}           
 </div>
 </ul>
 
