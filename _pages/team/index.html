@@ -48,7 +48,7 @@ permalink: /team/
 <!-- PhD Students -->
 <h2 class="mb-3"><a id="student"></a>PhD Students</h2>
 
-{% assign members = site.posts | where: 'category', 'phd-student' %}
+{% assign members = site.staff | where: 'category', 'phd-student' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
