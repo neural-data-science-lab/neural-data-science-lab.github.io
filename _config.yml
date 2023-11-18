@@ -30,7 +30,7 @@ plugins:
 collections:
   staff:
     output: true
-    source: "_pages/team/staff/"
+    source: "/_pages/team/staff/"
 
 # Conversion
 markdown: kramdown
