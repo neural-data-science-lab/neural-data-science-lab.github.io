@@ -27,11 +27,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-collections:
-  staff:
-    output: true
-    permalink: /pages/team/staff/:title
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
