@@ -31,7 +31,7 @@ permalink: /team/
 
 <ul class="list-unstyled">
   <div class="row">
-    {% for post in site.staff %}
+    {% for post in site.pages.team.staff %}
        {% if post.category == 'phd-student' %}
         {% assign ncols = 2 %}
         {% assign i = forloop.index0 | modulo: ncols %}
