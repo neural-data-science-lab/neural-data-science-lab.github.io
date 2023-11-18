@@ -10,7 +10,7 @@ permalink: /team/
 <!-- Staff -->
 <h2 class="mb-3"><a id="staff"></a>Team</h2>
 
-{% assign members = site.staff | where: 'category', 'staff'%}
+{% assign members = site.posts | where: 'category', 'staff'%}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
@@ -31,7 +31,7 @@ permalink: /team/
 
 <ul class="list-unstyled">
   <div class="row">
-    {% for post in site.posts %}
+    {% for post in site.staff %}
        {% if post.data.category == 'student' %}
         {% assign ncols = 2 %}
         {% assign i = forloop.index0 | modulo: ncols %}
