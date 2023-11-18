@@ -28,7 +28,6 @@ plugins:
   - jekyll-seo-tag
 
 # Conversion
-permalink: /posts/:title
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -47,3 +46,5 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+future: true
+permalink: /posts/:title
