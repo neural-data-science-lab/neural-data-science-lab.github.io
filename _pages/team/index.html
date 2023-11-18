@@ -10,7 +10,7 @@ permalink: /team/
 <!-- Staff -->
 <h2 class="mb-3"><a id="staff"></a>Team</h2>
 
-{% assign members = site.posts | where: 'category', 'staff'%}
+{% assign members = site.staff | where: 'category', 'staff'%}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
