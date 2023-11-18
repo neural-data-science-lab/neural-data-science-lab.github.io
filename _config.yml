@@ -27,6 +27,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+collections:
+  posts:
+    output: true
+    source: "_pages/team/staff/"
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
