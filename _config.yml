@@ -30,7 +30,7 @@ plugins:
 collections:
   staff:
     output: true
-    permalink: /staff/:title
+    permalink: /pages/team/staff/:title
 
 # Conversion
 markdown: kramdown
