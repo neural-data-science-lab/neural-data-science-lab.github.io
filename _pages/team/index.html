@@ -32,14 +32,16 @@ permalink: /team/
 <ul class="list-unstyled">
   <div class="row">
     {% for post in site.posts %}
+       {% if post.category == 'phd-student' %}
         {% assign ncols = 2 %}
         {% assign i = forloop.index0 | modulo: ncols %}
         <div class="col">
-          {%- include team_member.html -%}
+           {%- include team_member.html -%}
         </div>
         {% if i == 1 %}
           </div><div class="row">
         {% endif %}
+      {% endif %}
     {% endfor %}
   </div>
 </ul>
