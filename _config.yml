@@ -28,12 +28,12 @@ plugins:
   - jekyll-seo-tag
 
 # Conversion
+permalink: /posts/:title
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-future: true
 
 # Markdown Processing
 kramdown:
