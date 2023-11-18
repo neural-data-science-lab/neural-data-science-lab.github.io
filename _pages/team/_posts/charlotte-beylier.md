@@ -1,6 +1,6 @@
 ---
 layout: member
-category: phdstudent
+category: phd-student
 title: Charlotte Beylier
 image: minerva.jpg
 role: PhD Student 
