@@ -10,7 +10,7 @@ permalink: /ourresearch
         font-size: 18px; /* Adjust the font size as needed */
     }
     .img {
-        max-width: 100%;
+        max-width: 400px;
         height: auto;
         margin-right: 10px;
         margin-top: 15px;
