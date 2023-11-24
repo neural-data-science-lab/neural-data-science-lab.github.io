@@ -10,7 +10,6 @@ permalink: /ourresearch
     }
     .img {
         max-width: 100%;
-        height: auto;
     }
     .div{
         max-width:400px;
