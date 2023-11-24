@@ -53,7 +53,7 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 ### Representation Learning
 
 <div class="div">
-  <img src="/assets/images/image1.PNG" alt="Manifold Learning" class="img">  
+    <img src="/assets/images/image1.PNG" alt="Manifold Learning" class="img">  
 </div>
 
 
