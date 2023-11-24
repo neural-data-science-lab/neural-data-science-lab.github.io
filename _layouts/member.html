@@ -30,8 +30,8 @@ layout: default
     <h3>Education</h3>
     <dl style="font-size: 20px;">
         {% for education in page.education %}
-            <dt>{{ education.institution }}</dt>
-            <dd>{{ education.degree }} - {{ education.year }}</dd>
+            <dt>{{ education.institution }}- {{ education.year }}</dt>
+            <dd>{{ education.degree }} </dd>
         {% endfor %}
     </dl>
 </div>
