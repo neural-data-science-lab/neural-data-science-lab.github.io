@@ -9,10 +9,12 @@ permalink: /ourresearch
         font-size: 18px; 
     }
     .img {
-        max-width: 100%;
+        width: 100%; /* Make the image take up 100% of the container's width */
+        height: auto;
     }
     .div{
-        max-width:400px;
+        max-width: 400px; /* Set a maximum width for the container on larger screens */
+        width: 100%; /* Ensure the container takes up 100% width of its parent */
         margin-right: 10px;
         margin-top: 15px;
         float: left;
