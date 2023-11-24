@@ -15,7 +15,7 @@ permalink: /ourresearch
         max-width: 400px; /* Set a maximum width for the container on larger screens */
         width: 100%; /* Ensure the container takes up 100% width of its parent */
         margin-right: 10px;
-        margin-top: 15px;
+        margin-top: 10px;
         float: left;
     }
 </style>
