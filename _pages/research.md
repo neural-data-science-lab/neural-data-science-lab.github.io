@@ -14,7 +14,7 @@ permalink: /ourresearch
     .div{
         max-width: 400px; /* Set a maximum width for the container on larger screens */
         margin-right: 10px;
-        margin-top: 10px;
+        margin-top: 15px;
         float: left;
     }
 </style>
