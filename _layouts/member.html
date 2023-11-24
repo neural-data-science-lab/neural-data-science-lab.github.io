@@ -28,7 +28,7 @@ layout: default
 {% if page.education %}
 <div>
     <h3>Education</h3>
-    <dl style="font-size: 20px;">
+    <dl class="mt-2" style="font-size: 20px;">
         {% for education in page.education %}
             <dt>{{ education.institution }}- {{ education.year }}</dt>
             <dd>{{ education.degree }} </dd>
