@@ -34,7 +34,7 @@ We want to help uncover the underlying patterns. With our research, we want to c
 ### Manifold Learning
 
 <div class="div">
-<img src="/assets/images/image2.webp" alt="Manifold Learning" class="img">   
+    <img src="/assets/images/image2.webp" alt="Manifold Learning" class="img">   
 </div>
 
 
