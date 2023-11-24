@@ -10,7 +10,6 @@ permalink: /ourresearch
     }
     .img {
         width: 100%; /* Make the image take up 100% of the container's width */
-        height: auto;
     }
     .div{
         max-width: 400px; /* Set a maximum width for the container on larger screens */
