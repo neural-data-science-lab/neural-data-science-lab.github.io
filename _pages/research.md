@@ -11,6 +11,7 @@ permalink: /ourresearch
     }
     .img {
         max-width: 100%;
+        height: auto;
         max-width: 400px;
         margin-right: 10px;
         margin-top: 15px;
