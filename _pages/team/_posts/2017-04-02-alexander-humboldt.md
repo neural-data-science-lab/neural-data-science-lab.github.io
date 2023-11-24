@@ -15,7 +15,7 @@ social:
     research-gate: https://www.researchgate.net/profile/Karsten-Mueller-5
 education:
   - institution: University of Leipzig
-    degree: Informatics (minor: Biomedicine)
+    degree: Informatics 
     year: 2020-2024
 ---
 
