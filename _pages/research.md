@@ -33,7 +33,7 @@ We want to help uncover the underlying patterns. With our research, we want to c
 
 ### Manifold Learning
 <div class="div">
-<figure><img src="/assets/images/image2.webp" alt="Manifold Learning" class="img"></figure>
+img src="/assets/images/image2.webp" alt="Manifold Learning" class="img">
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra commodo lorem, at hendrerit tellus sagittis vitae. Integer dictum massa semper auctor ornare. Proin nec nulla ac massa vulputate sagittis vitae vel libero. Sed viverra, tellus vitae pharetra dictum, leo ligula fringilla libero, vel bibendum lacus turpis ac metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel sagittis orci. Nam id maximus justo, a viverra massa. Nam commodo ipsum at lacinia congue. Praesent ut est ac mi aliquam convallis sed maximus velit. Morbi hendrerit dapibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id lobortis ex, non fringilla nulla. Nulla facilisi. Aliquam quis iaculis nunc.
@@ -85,3 +85,14 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 <div style="">
  <p style="text-align: center;" ><a href="/contactus" class="btn btn-outline-primary " style="border-radius: 50px; font-size:20px;">Open Positions</a></p>
 </div>
+
+<script>
+const allPTags = document.querySelectorAll("p");
+
+allPTags.forEach((elem) => {
+    if (elem.innerText === "" && elem.childNodes.length === 1 && elem.childNodes[0].tagName === "IMG") {
+        elem.parentNode.insertBefore(elem.childNodes[0], elem);
+        elem.remove();
+    }
+});
+</script>
