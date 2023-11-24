@@ -14,7 +14,7 @@ social:
     orcid:
     research-gate: https://www.researchgate.net/profile/Karsten-Mueller-5
 education:
-- "Universität Leipzig - Diploma, Informatics (minor: Biomedicine)Diploma, Informatics (minor: Biomedicine)"
+- "Universität Leipzig - Diploma, Informatics (minor: Biomedicine) "
 - "Technische Universität Dresden - Doctor of Philosophy (PhD), Biomathematics, Bioinformatics, and Computational Biolog"
 ---
 
