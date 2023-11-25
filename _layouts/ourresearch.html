@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<button id="scrollToTopButton"  class="btn btn-light" onclick="scrollToTop()"></button>
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
 
 <script>
   // JavaScript code for scroll-to-top functionality
@@ -18,6 +18,12 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
+  }
+
+  function scrollToTopTouch() {
+    // Handle touch events separately
+    scrollToTop();
+    document.getElementById("scrollToTopButton").blur(); // Remove focus after touch
   }
 </script>
 
@@ -46,7 +52,13 @@ layout: default
     transition: border-radius 0.8s, background-color 0.8s, color 0.8s;
 }
 
+#scrollToTopButton::before {
+    content: "Top";
+    font-weight: bold;
+}
+
 #scrollToTopButton:hover::before,
+#scrollToTopButton:active::before,
 #scrollToTopButton:focus::before {
     content: "^";
     font-size: 70px;
@@ -59,17 +71,13 @@ layout: default
 }
 
 #scrollToTopButton:hover,
+#scrollToTopButton:active,
 #scrollToTopButton:focus {
     background-color: transparent;
     color: #0A6B65;
     border: none;
     border-radius: 0;
     box-shadow: none;
-}
-
-#scrollToTopButton::before {
-    content: "Top";
-    font-weight: bold;
 }
 
 #scrollToTopButton:focus {
