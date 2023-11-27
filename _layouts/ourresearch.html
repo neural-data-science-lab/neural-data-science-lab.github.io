@@ -6,11 +6,11 @@ layout: default
 
 <script>
   window.onscroll = function() {
-    var button = document.getElementById("scrollToTopButton");
+    var scrollToTopButton = document.getElementById("scrollToTopButton");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      button.style.display = "block";
+      scrollToTopButton.style.display = "block";
     } else {
-      button.style.display = "none";
+      scrollToTopButton.style.display = "none";
     }
   };
 
@@ -19,18 +19,9 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
-    document.getElementById("scrollToTopButton").blur(); // Remove focus after click
-  }
-
-  function scrollToTopTouch() {
-    var button = document.getElementById("scrollToTopButton");
-    button.classList.add("refresh"); // Add a class for styling
-    scrollToTop();
-
-    // Refresh the button after a delay
-    setTimeout(function() {
-      button.classList.remove("refresh");
-    }, 1000); // Adjust the delay as needed
+    
+    // Remove focus after scrolling to top
+    document.getElementById("scrollToTopButton").blur();
   }
 </script>
 
