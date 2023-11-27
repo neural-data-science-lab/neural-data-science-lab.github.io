@@ -19,10 +19,15 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
-    
+
     // Remove focus after scrolling to top
     document.getElementById("scrollToTopButton").blur();
   }
+
+  // Add touchstart event for mobile devices
+  document.getElementById("scrollToTopButton").addEventListener("touchstart", function() {
+    scrollToTop();
+  });
 </script>
 
 <style>
