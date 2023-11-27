@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
-
 <script>
   window.onscroll = function() {
     var button = document.getElementById("scrollToTopButton");
@@ -19,12 +17,9 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
-    document.getElementById("scrollToTopButton").blur(); // Remove focus after click
-  }
-
-  function scrollToTopTouch() {
-    scrollToTop();
-    document.getElementById("scrollToTopButton").blur(); // Remove focus after touch
+    setTimeout(function() {
+      document.activeElement.blur(); // Remove focus after the scroll animation
+    }, 300); // Adjust the timeout as needed
   }
 </script>
 
