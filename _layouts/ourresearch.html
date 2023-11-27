@@ -64,12 +64,21 @@ layout: default
     transition: background-color 0.8s, color 0.8s;
 }
 
+#scrollToTopButton {
+    background-color: #0A6B65;
+    color: #fff;
+    border: 2px solid #0A6B65;
+    transition: border-radius 0.8s, background-color 0.8s, color 0.8s;
+}
+
 #scrollToTopButton::before {
     content: "Top";
     font-weight: bold;
 }
 
-#scrollToTopButton.active::before {
+#scrollToTopButton:hover::before,
+#scrollToTopButton:active::before,
+#scrollToTopButton:focus::before {
     content: "^";
     font-size: 70px;
     position: absolute;
@@ -80,12 +89,20 @@ layout: default
     text-align: center;
 }
 
-#scrollToTopButton.active {
+#scrollToTopButton:hover,
+#scrollToTopButton:active,
+#scrollToTopButton:focus {
     background-color: transparent;
     color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#scrollToTopButton:focus {
+    outline: none;
 }
 </style>
-
 <div>
 	<h1 class="mb-5">{{ page.title }}</h1>
 	{{ content }}
