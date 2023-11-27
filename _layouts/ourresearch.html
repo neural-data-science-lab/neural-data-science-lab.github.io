@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()"></button>
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
 
 <script>
   window.onscroll = function() {
@@ -19,29 +19,12 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
+    document.getElementById("scrollToTopButton").blur(); // Remove focus after click
   }
 
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  var button = document.getElementById("scrollToTopButton");
-
-  if (isMobile) {
-    button.addEventListener("touchstart", function() {
-      button.classList.add("active");
-      scrollToTop();
-    });
-
-    button.addEventListener("touchend", function() {
-      button.classList.remove("active");
-    });
-  } else {
-    button.addEventListener("mousedown", function() {
-      button.classList.add("active");
-    });
-
-    button.addEventListener("mouseup", function() {
-      button.classList.remove("active");
-      scrollToTop();
-    });
+  function scrollToTopTouch() {
+    scrollToTop();
+    document.getElementById("scrollToTopButton").blur(); // Remove focus after touch
   }
 </script>
 
@@ -63,19 +46,11 @@ layout: default
     transition: background-color 0.8s, color 0.8s;
 }
 
-#scrollToTopButton {
-    background-color: #0A6B65;
-    color: #fff;
-    border: 2px solid #0A6B65;
-    transition: border-radius 0.8s, background-color 0.8s, color 0.8s;
-}
-
 #scrollToTopButton::before {
     content: "Top";
     font-weight: bold;
 }
 
-#scrollToTopButton:hover::before,
 #scrollToTopButton:active::before,
 #scrollToTopButton:focus::before {
     content: "^";
@@ -88,7 +63,6 @@ layout: default
     text-align: center;
 }
 
-#scrollToTopButton:hover,
 #scrollToTopButton:active,
 #scrollToTopButton:focus {
     background-color: transparent;
@@ -102,6 +76,7 @@ layout: default
     outline: none;
 }
 </style>
+
 <div>
 	<h1 class="mb-5">{{ page.title }}</h1>
 	{{ content }}
