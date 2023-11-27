@@ -69,26 +69,8 @@ layout: default
     text-align: center;
 }
 
-#scrollToTopButton.refresh::before {
-    content: "Top"; /* Reset content after refresh */
-}
-
 #scrollToTopButton:active,
 #scrollToTopButton:focus {
-    background-color: transparent;
-    color: #0A6B65;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-#scrollToTopButton.refresh:active::before,
-#scrollToTopButton.refresh:focus::before {
-    content: "^"; /* Adjust content after refresh */
-}
-
-#scrollToTopButton.refresh:active,
-#scrollToTopButton.refresh:focus {
     background-color: transparent;
     color: #0A6B65;
     border: none;
