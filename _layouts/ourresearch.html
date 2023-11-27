@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
+
 <script>
   window.onscroll = function() {
     var button = document.getElementById("scrollToTopButton");
@@ -17,9 +19,18 @@ layout: default
       top: 0,
       behavior: "smooth"
     });
+    document.getElementById("scrollToTopButton").blur(); // Remove focus after click
+  }
+
+  function scrollToTopTouch() {
+    var button = document.getElementById("scrollToTopButton");
+    button.classList.add("refresh"); // Add a class for styling
+    scrollToTop();
+
+    // Refresh the button after a delay
     setTimeout(function() {
-      document.activeElement.blur(); // Remove focus after the scroll animation
-    }, 300); // Adjust the timeout as needed
+      button.classList.remove("refresh");
+    }, 1000); // Adjust the delay as needed
   }
 </script>
 
@@ -58,8 +69,26 @@ layout: default
     text-align: center;
 }
 
+#scrollToTopButton.refresh::before {
+    content: "Top"; /* Reset content after refresh */
+}
+
 #scrollToTopButton:active,
 #scrollToTopButton:focus {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#scrollToTopButton.refresh:active::before,
+#scrollToTopButton.refresh:focus::before {
+    content: "^"; /* Adjust content after refresh */
+}
+
+#scrollToTopButton.refresh:active,
+#scrollToTopButton.refresh:focus {
     background-color: transparent;
     color: #0A6B65;
     border: none;
