@@ -41,7 +41,7 @@
 
             <!-- DOI -->
             {% if publi.DOI %}
-                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:15px;">ACCESS PAPER</a></p>
+                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">ACCESS PAPER</a></p>
             {% endif %}
         </p>
 
@@ -49,3 +49,13 @@
 </li>
 <hr>
 <div style="clear: both;"></div> <!-- Add this to clear the float -->
+<script>
+const allPTags = document.querySelectorAll("p");
+
+allPTags.forEach((elem) => {
+    if (elem.innerText === "" && elem.childNodes.length === 1 && elem.childNodes[0].tagName === "IMG") {
+        elem.parentNode.insertBefore(elem.childNodes[0], elem);
+        elem.remove();
+    }
+});
+</script>
