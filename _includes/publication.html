@@ -1,3 +1,17 @@
+<style>
+    .custom-list {
+        font-size: 18px; 
+    }
+    .img {
+        width: 100%; /* Make the image take up 100% of the container's width */
+    }
+    .div{
+        max-width: 400px; /* Set a maximum width for the container on larger screens */
+        margin-right: 10px;
+        float: left;
+    }
+</style>
+
 <li class="media mb-1">
     <div class="media-body">
 
@@ -5,7 +19,9 @@
             <!-- Preview Image or Gif -->
             
             {% if publi.Preview %}
-            <img src="{{ publi.Preview }}" alt="Preview" style="max-width: 400px; margin-right: 10px; float: left; /">
+            <div class="div"> 
+               <img src="{{ publi.Preview }}" alt="Manifold Learning" class="img">
+            </div>
             {% endif %}
 
             <!-- author -->
