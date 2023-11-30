@@ -5,6 +5,8 @@ layout: default
 <button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
 
 <script>
+  var isTouchDevice = 'ontouchstart' in document.documentElement;
+  
   window.onscroll = function() {
     var scrollToTopButton = document.getElementById("scrollToTopButton");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -24,16 +26,19 @@ layout: default
     document.getElementById("scrollToTopButton").blur();
   }
 
-  // Add click event for the button
-  document.getElementById("scrollToTopButton").addEventListener("click", function(event) {
-    // Prevent the default behavior on touch devices
-    event.preventDefault();
-    
-    // Call the scrollToTop function
-    scrollToTop();
-  });
+  var scrollToTopButton = document.getElementById("scrollToTopButton");
+  if (isTouchDevice) {
+    // For touch devices, use touchstart event
+    scrollToTopButton.addEventListener("touchstart", function() {
+      scrollToTop();
+    });
+  } else {
+    // For non-touch devices, use click event
+    scrollToTopButton.addEventListener("click", function() {
+      scrollToTop();
+    });
+  }
 </script>
-
 <style>
 #scrollToTopButton {
     display: none;
