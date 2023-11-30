@@ -5,39 +5,27 @@ layout: default
 <button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()" ontouchstart="scrollToTopTouch()"></button>
 
 <script>
-  var isTouchDevice = 'ontouchstart' in document.documentElement;
-  
+  // JavaScript code for scroll-to-top functionality
+  let isTouched = false;
+
   window.onscroll = function() {
-    var scrollToTopButton = document.getElementById("scrollToTopButton");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      scrollToTopButton.style.display = "block";
+      document.getElementById("scrollToTopButton").style.display = "block";
     } else {
-      scrollToTopButton.style.display = "none";
+      document.getElementById("scrollToTopButton").style.display = "none";
     }
   };
 
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+  document.getElementById("scrollToTopButton").addEventListener('touchstart', () => {
+    isTouched = true;
+    scrollToTop();
+  });
 
-    // Remove focus after scrolling to top
-    document.getElementById("scrollToTopButton").blur();
-  }
-
-  var scrollToTopButton = document.getElementById("scrollToTopButton");
-  if (isTouchDevice) {
-    // For touch devices, use touchstart event
-    scrollToTopButton.addEventListener("touchstart", function() {
-      scrollToTop();
-    });
-  } else {
-    // For non-touch devices, use click event
-    scrollToTopButton.addEventListener("click", function() {
-      scrollToTop();
-    });
-  }
+  document.getElementById("scrollToTopButton").addEventListener('touchend', () => {
+    isTouched = false;
+    document.getElementById("scrollToTopButton").style.backgroundColor = "#0A6B65";
+    document.getElementById("scrollToTopButton").style.color = "#fff";
+  });
 </script>
 <style>
 #scrollToTopButton {
