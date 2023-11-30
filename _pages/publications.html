@@ -4,7 +4,7 @@ layout: page
 excerpt: NeurDS Lab -- Our Research.
 permalink: /publications/
 ---
-<button id="scrollToTopButton"  class="btn btn-light" onclick="scrollToTop()"></button>
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()"></button>
 
 <script>
   window.onscroll = function() {
@@ -17,10 +17,22 @@ permalink: /publications/
   };
 
   function scrollToTop() {
+    var scrollToTopButton = document.getElementById("scrollToTopButton");
     window.scrollTo({
       top: 0,
       behavior: "smooth"
     });
+
+    // Toggle a class for styling changes
+    scrollToTopButton.classList.toggle("clicked");
+
+    // Remove focus after scrolling to top
+    scrollToTopButton.blur();
+
+    // Revert to the original state after scrolling to the top
+    setTimeout(function() {
+      scrollToTopButton.classList.remove("clicked");
+    }, 800); // Adjust the timeout to match the scroll behavior duration
   }
 </script>
 
@@ -55,23 +67,27 @@ permalink: /publications/
   font-weight: bold;
 }
 
-#scrollToTopButton:hover {
-  background-color: transparent;
-  color: #0A6B65;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-}
+@media (min-width: 768px) {
+  #scrollToTopButton:hover,
+  #scrollToTopButton.clicked {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
 
-#scrollToTopButton:hover::before {
-  content: "^";
-  font-size: 70px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
+  #scrollToTopButton:hover::before,
+  #scrollToTopButton.clicked::before {
+    content: "^";
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>
 
