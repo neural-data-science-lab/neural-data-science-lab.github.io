@@ -24,8 +24,12 @@ layout: default
     document.getElementById("scrollToTopButton").blur();
   }
 
-  // Add touchstart event for mobile devices
-  document.getElementById("scrollToTopButton").addEventListener("touchstart", function() {
+  // Add click event for the button
+  document.getElementById("scrollToTopButton").addEventListener("click", function(event) {
+    // Prevent the default behavior on touch devices
+    event.preventDefault();
+    
+    // Call the scrollToTop function
     scrollToTop();
   });
 </script>
