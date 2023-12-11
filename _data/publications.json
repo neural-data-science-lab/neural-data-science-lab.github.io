@@ -1,6 +1,5 @@
 [     {
-        "Item Type": "journalArticle",
-        "Publication Year": 2023.0,
+        "Publication Year": 2023,
         "Author": "Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis",
         "Title": "Learnable latent embeddings for joint behavioural and neural analysis",
         "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
