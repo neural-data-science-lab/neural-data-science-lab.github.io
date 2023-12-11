@@ -3,7 +3,7 @@
         "Author": "Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis",
         "Title": "Learnable latent embeddings for joint behavioural and neural analysis",
         "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
-        "Preview": "/assets/images/image2.webp",
+        "Preview": "image2.webp",
         "Journal": "Nature"
      },
         {
@@ -15,7 +15,7 @@
         "Url": "https://arxiv.org/abs/2310.13018",
         "Date": "2009-11-23",
         "Journal": "Arvix",
-        "Preview": "/assets/images/image1.PNG"
+        "Preview": "image1.PNG"
      },
      {
         "Item Type": "journalArticle",
@@ -25,7 +25,7 @@
         "DOI": "http://dx.doi.org/10.1145/3065386",
         "Url": "https://www.researchgate.net/publication/267960550_ImageNet_Classification_with_Deep_Convolutional_Neural_Networks",
         "Journal": "Arvix",
-        "Preview": "/assets/images/wave-mechanics.gif"
+        "Preview": "wave-mechanics.gif"
     },
     {
         "Item Type": "journalArticle",
@@ -43,7 +43,7 @@
         "Issue": 3.0,
         "Volume": 23.0,
         "Library Catalog": "Springer",
-        "Preview": "/assets/images/wave-mechanics.gif"
+        "Preview": "wave-mechanics.gif"
     },
     {
         "Item Type": "journalArticle",
@@ -78,7 +78,7 @@
         "Journal": "Springer",
         "Volume": 23.0,
         "Library Catalog": "Springer",
-        "Preview": "/assets/images/brownian-motion.gif"
+        "Preview": "brownian-motion.gif"
     },
      {
         "Item Type": "journalArticle",
