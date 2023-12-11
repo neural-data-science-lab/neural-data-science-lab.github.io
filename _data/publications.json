@@ -4,13 +4,11 @@
         "Author": "Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis",
         "Title": "Learnable latent embeddings for joint behavioural and neural analysis",
         "DOI": "https://doi.org/10.48550/arXiv.2310.13018",
-        "Url": "https://arxiv.org/abs/2310.13018",
-        "Date": "2009-11-23",
         "Preview": "/assets/images/image2.webp",
         "Journal": "Nature"
      },
         {
-        "Item Type": "journalArticle",
+        "Item Type": "Poster",
         "Publication Year": 2023.0,
         "Author": "Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B., ... & Griffiths, T. L",
         "Title": "Getting aligned on representational alignment",
