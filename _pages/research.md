@@ -42,9 +42,9 @@ Suspendisse et lorem eget tellus semper efficitur in sed lacus. Phasellus sed du
 
 ##### Selected Publications
 
-- (Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [Nature](https://www.nature.com/articles/s41586-023-06031-6)
-- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [Nature](https://www.nature.com/articles/s41586-023-06031-6)
-- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [Nature](https://www.nature.com/articles/s41586-023-06031-6)
+- (Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [**Nature**](https://www.nature.com/articles/s41586-023-06031-6)
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [**Nature**](https://www.nature.com/articles/s41586-023-06031-6)
+- Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis, 2023, "Learnable latent embeddings for joint behavioural and neural analysis", [**Nature**](https://www.nature.com/articles/s41586-023-06031-6)
 
 ---
 
