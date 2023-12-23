@@ -1,4 +1,5 @@
-[     {
+[    
+        {
         "Publication Year": 2023,
         "Author": "Steffen Schneider, Jin Hwa Lee & Mackenzie Weygandt Mathis",
         "Title": "Learnable latent embeddings for joint behavioural and neural analysis",
@@ -6,6 +7,13 @@
         "Preview": "image2.webp",
         "Journal": "Nature"
      },
+        {
+    "Publication Year": 2023,
+    "Author": "H. Schlögl, A. Villringer, K. Miehle, M. Fasshauer, M. Stumvoll, K. Mueller",
+    "Title": "Metreleptin robustly increases resting-state brain connectivity in treatment-naïve female patients with lipodystrophy",
+    "DOI": "https://dx.doi.org/10.1210/jendso/bvad072",
+    "Journal": "Journal of the Endocrine Society"
+       },
         {
         "Item Type": "Poster",
         "Publication Year": 2023,
