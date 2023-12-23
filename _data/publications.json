@@ -1,3 +1,83 @@
-[  
+[
+	
+	{
+    "Publication Year": 2023,
+    "Author": "H. Schlögl, A. Villringer, K. Miehle, M. Fasshauer, M. Stumvoll, K. Mueller",
+    "Title": "Metreleptin robustly increases resting-state brain connectivity in treatment-naïve female patients with lipodystrophy",
+    "DOI": "https://dx.doi.org/10.1210/jendso/bvad072",
+    "Journal": "Journal of the Endocrine Society",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "H. Schlögl, L. Janssen, M. Fasshauer, K. Miehle, A. Villringer, M. Stumvoll, K. Mueller",
+    "Title": "Reward processing during monetary incentive delay task after leptin substitution in lipodystrophy - An fMRI case series",
+    "DOI": "https://dx.doi.org/10.1210/jendso/bvad052",
+    "Journal": "Journal of the Endocrine Society",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "K. Mueller, F. Thiel, B. Taskin, F. Beutner, A. Teren, V. K. Dubovoy, H. E. Möller, A. Villringer, M. L. Schroeter",
+    "Title": "Brain dysconnectivity with heart failure",
+    "DOI": "https://dx.doi.org/10.1093/braincomms/fcad103",
+    "Journal": "Brain Communications",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "E. Williams, M. Kienast, E. Medawar, J. Reinelt, A. Merola, S. A. I. Klopfenstein, A. R. Flint, P. Heeren, A.-S. Poncette, F. Balzer, et al.",
+    "Title": "A standardized clinical data harmonization pipeline for scalable AI application deployment (FHIR-DHP): Validation and usability study",
+    "DOI": "https://dx.doi.org/10.2196/43847",
+    "Journal": "JMIR Medical Informatics (JMI)",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "K. I. Paul, K. Mueller, P.-N. Rousseau, A. Glathe, N. A. Taatgen, F. Cnossen, P. Lanzer, A. Villringer, C. Steele",
+    "Title": "Visuo-motor transformations in the intraparietal sulcus mediate the acquisition of endovascular medical skill",
+    "DOI": "https://dx.doi.org/10.1016/j.neuroimage.2022.119781",
+    "Journal": "NeuroImage",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "M. L. Schroeter, J. Godulla, F. Thiel, B. Taskin, F. Beutner, V. K. Dubovoy, A. Teren, J. Camilleri, S. Eickhoff, A. Villringer, et al.",
+    "Title": "Heart failure decouples the precuneus in interaction with social cognition and executive functions",
+    "DOI": "https://dx.doi.org/10.1038/s41598-023-28338-0",
+    "Journal": "Scientific Reports",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "L. Lampe, H.-J. Huppertz, S. Anderl-Straub, F. Albrecht, T. Ballarini, S. Bisenius, K. Mueller, S. Niehaus, K. Fassbender, K. Fliessbach, et al.",
+    "Title": "Multiclass prediction of different dementia syndromes based on multi-centric volumetric MRI imaging",
+    "DOI": "https://dx.doi.org/10.1016/j.nicl.2023.103320",
+    "Journal": "NeuroImage: Clinical",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "R. Torrecuso, K. Mueller, Š. Holiga, T. Sieger, J. Vymazal, F. Růžička, J. Roth, E. F. Růžička, M. L. Schroeter, R. Jech, et al.",
+    "Title": "Improving fMRI in Parkinson's disease by accounting for brain region-specific activity patterns",
+    "DOI": "https://dx.doi.org/10.1016/j.nicl.2023.103396",
+    "Journal": "NeuroImage: Clinical",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "D. Kiakou, A. Adamopoulos, N. Scherf",
+    "Title": "Graph-based disease prediction in neuroimaging: Investigating the impact of feature selection",
+    "DOI": "https://dx.doi.org/10.1007/978-3-031-31982-2_24",
+    "Journal": "Advances in Experimental Medicine and Biology (AEMB)",
+    },
+
+    {
+    "Publication Year": 2023,
+    "Author": "K.-R. Müller, S. Hofmann",
+    "Title": "Interpreting deep learning models for multi-modal neuroimaging",
+    "DOI": "https://dx.doi.org/10.1109/BCI57258.2023.10078502",
+    "Conference": "Proceedings of the 11th International Winter Conference on Brain-Computer Interface (BCI)",
+    }
 
 ]
