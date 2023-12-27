@@ -1,7 +1,7 @@
 ---
 layout: member
 category: alumni
-title: Sophie Germain
+title: Ben Schreglmann
 image: minerva.jpg
 role: Research Intern 
 social:
@@ -12,5 +12,5 @@ social:
     website: 
     orcid: 
     research-gate: 
-Year: 2021
+Year: 2023
 ---
