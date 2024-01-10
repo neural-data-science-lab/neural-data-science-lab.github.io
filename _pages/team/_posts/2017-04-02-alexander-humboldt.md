@@ -1,10 +1,10 @@
 ---
 layout: member
 category: leader
-title: 'Alexander von Humboldt'
+title: 'Nico Scherf'
 image: 'minerva.jpg'
 role: Group Leader
-permalink: 'team/alexander-humboldt'
+permalink: 'team/nico-scherf'
 social:
     twitter: https://twitter.com/nicoscherf
     linkedin: https://www.linkedin.com/in/nico-scherf-008549b6/?originalSubdomain=de
