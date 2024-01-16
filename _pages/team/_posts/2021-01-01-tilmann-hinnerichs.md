@@ -1,7 +1,7 @@
 ---
 layout: member
 category: alumni
-title: Tilman Hinnerichs
+title: Tilmann Hinnerichs
 image: minerva.jpg
 role: Master's Student
 social:
