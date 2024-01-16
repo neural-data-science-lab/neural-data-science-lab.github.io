@@ -6,7 +6,7 @@ image: minerva.jpg
 role: Master's Student
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/in/denizkucukahmetler/?originalSubdomain=tr
+    linkedin: 
     google-scholar: 
     github: 
     website: 
