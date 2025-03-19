@@ -11,12 +11,12 @@ social:
     orcid: https://orcid.org/0009-0005-2439-3827
 education:
   - institution: "Charles University" 
-    degree: "Neurosciences" 
+    degree: "Ph.D. in Neurosciences" 
     year: "2022-present"
   - institution: "Hellenic Open University" 
-    degree: "Bioinformatics and Neuroinformatics"
+    degree: "M.Sc. in Bioinformatics and Neuroinformatics"
     year: "2020-2022"
   - institution: "University of Ioannina" 
-    degree: "Mathematics"
+    degree: "B.Sc. in Mathematics"
     year: "2016-2020"
 ---
