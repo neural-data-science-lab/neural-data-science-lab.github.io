@@ -1,9 +1,9 @@
 ---
 layout: member
-category: alumni
+category: phd-student
 title: Deniz Kucukahmetler
 image: minerva.jpg
-role: phd-student 
+role: Doctoral Researcher
 permalink: 'team/deniz-kucukahmetler'
 social:
     twitter: 
