@@ -1,17 +1,17 @@
 ---
 layout: member
-category: phd-student
-title: Elham Gholamzadeh
+category: student
+title: Stephan Meyer
 image: minerva.jpg
-role: Doctoral Researcher
-permalink: 'team/elham-gholamzadeh'
+role: Master's Student
+permalink: 'team/stephan-meyer'
 social:
     twitter: 
-    linkedin:
+    linkedin: 
     google-scholar: 
     github: 
     website: 
     orcid: 
     research-gate: 
-Year: 2021-today
+Year: 2024-2025
 ---

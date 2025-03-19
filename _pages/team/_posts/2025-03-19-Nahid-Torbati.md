@@ -1,10 +1,10 @@
 ---
 layout: member
 category: phd-student
-title: Elham Gholamzadeh
+title: Nahid Torbati
 image: minerva.jpg
 role: Doctoral Researcher
-permalink: 'team/elham-gholamzadeh'
+permalink: 'team/nahid-torbati'
 social:
     twitter: 
     linkedin:
