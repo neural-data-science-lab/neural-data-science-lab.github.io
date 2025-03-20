@@ -18,8 +18,14 @@ education:
     degree: "Diploma, Informatics (minor: Biomedicine)" 
     year: "2020-2024"
   - institution: "Technische Universität Dresden" 
-    degree: "Doctor of Philosophy (PhD), Biomathematics, Bioinformatics, and Computational Biolog" 
+    degree: "Doctor of Philosophy (PhD), Biomathematics, Bioinformatics, and Computational Biology" 
     year: "2020-2024"
 ---
 
-Aliquam lacinia hendrerit metus eu condimentum. Quisque dapibus ante sem, vel rhoncus nulla lacinia a. Nulla auctor lobortis enim, a malesuada purus accumsan eu. Integer iaculis sed arcu et venenatis. Proin aliquam, felis nec tincidunt porttitor, mauris leo faucibus lectus, sit amet porttitor orci erat vel dui. Duis aliquam lacus in odio hendrerit, at ornare nibh condimentum. Nunc quis libero dignissim, efficitur felis sit amet, semper ipsum. Maecenas ligula diam, vulputate sit amet erat a, dapibus consequat lectus. Donec dapibus at orci a tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+**Nico's research interest**: How can a network of cells perceive, represent, and make sense of the world around it? 
+Experimental techniques such as high-resolution, multi-modal magnetic resonance imaging, light-sheet microscopy, or single-cell sequencing provide unprecedented insights into the structures and processes of neural systems and life in general. However, these methods yield high-dimensional data with intricate structures and dependencies that can be challenging to interpret. 
+We want to help uncover the underlying patterns. With our research, we want to contribute conceptual and computational tools to map, explore, and understand the manifolds of neural data that help us improve neuroscience and AI research and clinical practice in three complementary areas:
+
+- Analysis: Mapping structure and function of neural systems across scales
+- Exploration: Visualizing the geometry of  complex biological systems
+- Synthesis: Computational modelling of neural development and cognition

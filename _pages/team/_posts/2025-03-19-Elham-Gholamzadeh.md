@@ -1,13 +1,13 @@
 ---
 layout: member
 category: phd-student
-title: Deniz Kucukahmetler
+title: Elham Gholamzadeh
 image: minerva.jpg
 role: Doctoral Researcher
-permalink: 'team/deniz-kucukahmetler'
+permalink: 'team/elham-gholamzadeh'
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/in/denizkucukahmetler/?originalSubdomain=tr
+    linkedin:
     google-scholar: 
     github: 
     website: 
@@ -15,6 +15,3 @@ social:
     research-gate: 
 Year: 2021-today
 ---
-
-
-
