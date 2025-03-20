@@ -3,7 +3,7 @@ layout: member
 category: phd-student
 title: Dimitra Kiakou
 image: minerva.jpg
-role: PhD Student
+role: Doctoral Researcher
 permalink: 'team/dimitra-kiakou'
 social:
     linkedin: https://cz.linkedin.com/in/dimitra-kiakou-26b9b327a
