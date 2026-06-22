@@ -1,7 +1,7 @@
 ---
 layout: member
 category: postdoc
-title: Katja Seeliger
+title: Dr. Katja Seeliger
 image: katja.jpg
 role: Scientific Researcher
 permalink: 'team/katja-seeliger'
