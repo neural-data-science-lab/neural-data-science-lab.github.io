@@ -14,7 +14,7 @@ social:
     orcid: 
     research-gate: 
     bsky: https://bsky.app/profile/nicohinrichs.bsky.social
-Year: 2021-today
+Year: 2026-today
 ---
 
 
