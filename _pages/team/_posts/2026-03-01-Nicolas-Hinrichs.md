@@ -2,7 +2,7 @@
 layout: member
 category: postdoc
 title: Nicolás Hinrichs
-image: minerva.jpg
+image: nh.jpeg
 role: Doctoral Researcher
 permalink: 'team/nicolas-hinrichs'
 social:
