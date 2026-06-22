@@ -1,7 +1,7 @@
 ---
 layout: member
 category: postdoc
-title: 'Simon M. Hofmann'
+title: 'Dr. Simon M. Hofmann'
 image: 'Hofmann-Simon-M.png'
 role: Scientific Researcher
 permalink: 'team/simon-hofmann'
