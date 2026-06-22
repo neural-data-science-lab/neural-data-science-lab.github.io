@@ -2,7 +2,7 @@
 layout: member
 category: phd-student
 title: Elham Gholamzadeh
-image: minerva.jpg
+image: elham.jpg
 role: Doctoral Researcher
 permalink: 'team/elham-gholamzadeh'
 social:
