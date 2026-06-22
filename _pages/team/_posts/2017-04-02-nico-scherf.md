@@ -1,7 +1,7 @@
 ---
 layout: member
 category: leader
-title: 'Nico Scherf'
+title: 'Dr. Nico Scherf'
 image: 'niconiconico.png'
 role: Group Leader
 permalink: 'team/nico-scherf'
