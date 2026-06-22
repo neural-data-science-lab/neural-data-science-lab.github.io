@@ -1,7 +1,7 @@
 ---
 layout: member
 category: postdoc
-title: Nicolás Hinrichs
+title: Dr. Nicolás Hinrichs
 image: nh.jpeg
 role: Scientific Researcher
 permalink: 'team/nicolas-hinrichs'
