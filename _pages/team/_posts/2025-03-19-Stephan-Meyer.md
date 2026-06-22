@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: alumni
 title: Stephan Meyer
 image: minerva.jpg
 role: Master's Student
