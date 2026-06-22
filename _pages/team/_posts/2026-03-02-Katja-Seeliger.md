@@ -3,7 +3,7 @@ layout: member
 category: postdoc
 title: Katja Seeliger
 image: katja.jpg
-role: Doctoral Researcher
+role: Scientific Researcher
 permalink: 'team/katja-seeliger'
 social:
     twitter: 
