@@ -2,7 +2,7 @@
 layout: member
 category: leader
 title: 'Nico Scherf'
-image: 'niconiconico.jpg'
+image: 'niconiconico.png'
 role: Group Leader
 permalink: 'team/nico-scherf'
 social:
