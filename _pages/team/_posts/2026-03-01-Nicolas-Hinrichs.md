@@ -3,7 +3,7 @@ layout: member
 category: postdoc
 title: Nicolás Hinrichs
 image: nh.jpeg
-role: Doctoral Researcher
+role: Scientific Researcher
 permalink: 'team/nicolas-hinrichs'
 social:
     twitter: https://x.com/nico_hinrichs
