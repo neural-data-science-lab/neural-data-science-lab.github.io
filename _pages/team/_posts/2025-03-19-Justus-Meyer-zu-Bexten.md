@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: phd-student
 title: Justus Meyer zu Bexten
 image: justus.jpg
-role: Master's Student
+role: Doctoral Canditate
 permalink: 'team/justus-meyer-zu-bexten'
 social:
     twitter: 
