@@ -16,10 +16,10 @@ social:
 education:
   - institution: "Universität Leipzig" 
     degree: "Diploma, Informatics (minor: Biomedicine)" 
-    year: "2020-2024"
+    year: "1998-2006"
   - institution: "Technische Universität Dresden" 
     degree: "Doctor of Philosophy (PhD), Biomathematics, Bioinformatics, and Computational Biology" 
-    year: "2020-2024"
+    year: "2010-2013"
 ---
 
 **Nico's research interest**: How can a network of cells perceive, represent, and make sense of the world around it? 
