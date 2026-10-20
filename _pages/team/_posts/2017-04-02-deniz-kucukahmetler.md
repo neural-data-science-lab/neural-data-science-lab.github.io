@@ -8,13 +8,16 @@ permalink: 'team/deniz-kucukahmetler'
 social:
     twitter: 
     linkedin: https://www.linkedin.com/in/denizkucukahmetler/?originalSubdomain=tr
-    google-scholar: 
-    github: 
+    google-scholar: https://scholar.google.com/citations?user=7msDOnoAAAAJ&hl=en
+    github: https://github.com/denizkucukahmetler 
     website: 
     orcid: 
     research-gate: 
-Year: 2021-today
+Year: 2024-today
 ---
 
+Sed ut arcu luctus, laoreet mi vel, blandit ante. Sed bibendum leo lectus, 
+eget rutrum nisl feugiat egestas. In blandit lacus laoreet egestas rhoncus. 
+Vivamus ut tortor et mauris sollicitudin gravida nec at est. 
 
 
