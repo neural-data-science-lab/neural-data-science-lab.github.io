@@ -2,8 +2,8 @@
 layout: member
 category: phd-student
 title: Deniz Kucukahmetler
-image: Kucukametler_Deniz_DSCF9955
-role: Doctoral Researcher
+image: deniz
+role: Doctoral Researcher 
 permalink: 'team/deniz-kucukahmetler'
 social:
     twitter: 
@@ -13,6 +13,7 @@ social:
     website: 
     orcid: 
     research-gate: 
+    
 education:
   - institution: "Max Planck Institute for Human Cognitive and Brain Sciences & SECAI"
     degree: "Ph.D. in Computer Science"
@@ -20,7 +21,7 @@ education:
   - institution: "University of Oxford"
     degree: "M.Sc. in Neuroscience"
     year: "2022-2023"
-  - institution: "Sabancı University"
+  - institution: "Sabanci University"
     degree: "B.Sc. in Computer Science and Engineering, Minor in Mathematics"
     year: "2017-2022"
 
@@ -28,7 +29,14 @@ education:
 
 Year: 2024-today
 ---
-She works at the intersection of machine learning and computational neuroscience. Her research asks how artificial and biological neural networks represent the world, and when two such representations can be considered "the same."
+Deniz’s research focuses on brain encoding, representational alignment, and neural dynamics. She studies how information is represented in biological and artificial neural networks, and how these representations can be aligned across individuals and models despite differences in their underlying latent geometry. Her work includes developing shared latent spaces for multi-subject fMRI encoding and decoding, modeling brain responses to naturalistic, multimodal stimuli such as movies, and investigating the latent geometry and dynamics of neural forecasting models. More broadly, she aims to uncover shared principles of representation and computation across brains and artificial neural systems.
 
 
-**Research keywords:** NeuroAI · Representational Alignment · Brain Encoding & Decoding · Multi-Subject fMRI · Generative Models · Neural Forecasting of Dynamical Systems · Multimodal Deep Learning · Brain–Computer Interfaces
+**Research keywords:** representational alignment, NeuroAI, brain encoding, fMRI, geometric deep learning, generative models, dynamical systems
+
+
+### Publications 
+- D. Kucukahmetler, M. J. Hemmann, J. Mosig von Aehrenfeld, M. Amthor, C. Deubel, N. Scherf, D. Taha. *Relative Geometry of Neural Forecasters: Linking Accuracy and Alignment in Learned Latent Geometry.* Transactions on Machine Learning Research (TMLR), 2026.
+- S. Eren\*, D. Kucukahmetler\*, N. Scherf. *Multimodal Recurrent Ensembles for Predicting Brain Responses to Naturalistic Movies (Algonauts 2025).* arXiv:2507.17897, 2025. (\*equal contribution)
+- B. Guney, D. Kucukahmetler, H. Ozkan. *Source-free domain adaptation for SSVEP-based brain–computer interfaces.* Journal of Neural Engineering, 22(5):056028, 2025.
+- T. O. West, K. Steidel, T. Flessner, A. Calvano, D. Kucukahmetler, M. J. Stam, et al. *Essential tremor disrupts rhythmic brain networks during naturalistic movement.* Neurobiology of Disease, 207:106858, 2025.
