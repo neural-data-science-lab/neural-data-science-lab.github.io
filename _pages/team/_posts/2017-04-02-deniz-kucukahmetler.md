@@ -1,4 +1,5 @@
 ---
+
 layout: member
 category: phd-student
 title: Deniz Kucukahmetler
@@ -21,10 +22,26 @@ social:
 
 Year: 2024-today
 ---
+<style>
+    .custom-list {
+        font-size: 18px; 
+    }
+    .img {
+        width: 100%; 
+    }
+    .div{
+        max-width: 400px; 
+        margin-right: 10px;
+        margin-top: 15px;
+        float: left;
+    }
+</style>
+
 Deniz’s research focuses on brain encoding, representational alignment, and neural dynamics. She studies how information is represented in biological and artificial neural networks, and how these representations can be aligned across individuals and models despite differences in their underlying latent geometry. Her work includes developing shared latent spaces for multi-subject fMRI encoding and decoding, modeling brain responses to naturalistic, multimodal stimuli such as movies, and investigating the latent geometry and dynamics of neural forecasting models. More broadly, she aims to uncover shared principles of representation and computation across brains and artificial neural systems.
 
 
 **Research keywords:** representational alignment, NeuroAI, brain encoding, fMRI, geometric deep learning, generative models, dynamical systems
+
 
 <div class="div">
   <img src="/assets/images/brain_encoding_decoding.png" alt="Brain Encoding Decoding" class="img">
