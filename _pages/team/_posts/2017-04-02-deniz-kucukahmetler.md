@@ -26,6 +26,9 @@ Deniz’s research focuses on brain encoding, representational alignment, and ne
 
 **Research keywords:** representational alignment, NeuroAI, brain encoding, fMRI, geometric deep learning, generative models, dynamical systems
 
+<div class="div">
+  <img src="/assets/images/brain_encoding_decoding.png" alt="Brain Encoding Decoding" class="img">
+</div>
 
 ### Publications 
 - D. Kucukahmetler, M. J. Hemmann, J. Mosig von Aehrenfeld, M. Amthor, C. Deubel, N. Scherf, D. Taha. *Relative Geometry of Neural Forecasters: Linking Accuracy and Alignment in Learned Latent Geometry.* Transactions on Machine Learning Research (TMLR), 2026.
