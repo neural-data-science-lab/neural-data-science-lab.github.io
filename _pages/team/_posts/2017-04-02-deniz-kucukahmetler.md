@@ -37,15 +37,15 @@ Year: 2024-today
     }
 </style>
 
-Deniz’s research focuses on brain encoding, representational alignment, and neural dynamics. She studies how information is represented in biological and artificial neural networks, and how these representations can be aligned across individuals and models despite differences in their underlying latent geometry. Her work includes developing shared latent spaces for multi-subject fMRI encoding and decoding, modeling brain responses to naturalistic, multimodal stimuli such as movies, and investigating the latent geometry and dynamics of neural forecasting models. More broadly, she aims to uncover shared principles of representation and computation across brains and artificial neural systems.
-
-
-**Research keywords:** representational alignment, NeuroAI, brain encoding, fMRI, geometric deep learning, generative models, dynamical systems
-
 
 <div class="div">
   <img src="/assets/images/brain_encoding_decoding.png" alt="Brain Encoding Decoding" class="img">
 </div>
+
+Deniz’s research focuses on brain encoding, representational alignment, and neural dynamics. She studies how information is represented in biological and artificial neural networks, and how these representations can be aligned across individuals and models despite differences in their underlying latent geometry. Her work includes developing shared latent spaces for multi-subject fMRI encoding and decoding, modeling brain responses to naturalistic, multimodal stimuli such as movies, and investigating the latent geometry and dynamics of neural forecasting models. More broadly, she aims to uncover shared principles of representation and computation across brains and artificial neural systems.
+
+
+**Research keywords:** representational alignment, NeuroAI, brain encoding, fMRI, geometric deep learning, generative models, dynamical systems
 
 ### Publications 
 - D. Kucukahmetler, M. J. Hemmann, J. Mosig von Aehrenfeld, M. Amthor, C. Deubel, N. Scherf, D. Taha. *Relative Geometry of Neural Forecasters: Linking Accuracy and Alignment in Learned Latent Geometry.* Transactions on Machine Learning Research (TMLR), 2026.
