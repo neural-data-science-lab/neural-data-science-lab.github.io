@@ -13,17 +13,9 @@ social:
     website: 
     orcid: 
     research-gate: 
+
     
-education:
-  - institution: "Max Planck Institute for Human Cognitive and Brain Sciences & SECAI"
-    degree: "Ph.D. in Computer Science"
-    year: "2024-today"
-  - institution: "University of Oxford"
-    degree: "M.Sc. in Neuroscience"
-    year: "2022-2023"
-  - institution: "Sabanci University"
-    degree: "B.Sc. in Computer Science and Engineering, Minor in Mathematics"
-    year: "2017-2022"
+
 
 
 
