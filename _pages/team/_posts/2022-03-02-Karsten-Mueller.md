@@ -2,7 +2,7 @@
 layout: member
 category: postdoc
 title: Professor Dr. Karsten Mueller
-image: karsten.webp
+image: karsten.png
 role: Scientific Researcher
 permalink: 'team/kasten-mueller'
 social:
