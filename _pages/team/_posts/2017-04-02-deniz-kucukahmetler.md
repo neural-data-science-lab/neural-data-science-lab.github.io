@@ -17,7 +17,10 @@ social:
 
     
 
-
+education:
+  - institution: "Max Planck Institute for Human Cognitive and Brain Sciences & SECAI"
+    degree: "Ph.D. in Computer Science"
+    year: "2024-today"
 
 
 Year: 2024-today
