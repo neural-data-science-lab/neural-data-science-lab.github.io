@@ -3,7 +3,7 @@
 layout: member
 category: phd-student
 title: Deniz Kucukahmetler
-image: deniz.JPG
+image: deniz.jpg
 role: Doctoral Researcher 
 permalink: 'team/deniz-kucukahmetler'
 social:
