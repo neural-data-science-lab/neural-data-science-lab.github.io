@@ -13,9 +13,7 @@ social:
     github: https://github.com/allshaks 
     website: 
     orcid: 
-    research-gate: 
----
-    
+    research-gate:     
 
 education:
   - institution: "Universidad de Buenos Aires"
@@ -24,3 +22,4 @@ education:
   - institution: "Max Planck Institute for Human Cognitive and Brain Sciences"
     degree: "Ph.D. in Computer Science"
     year: "2023-today"
+---
