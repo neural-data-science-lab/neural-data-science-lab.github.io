@@ -1,5 +1,51 @@
 [
-	
+	{
+    "Publication Year": 2026,
+    "Author": "J. Meyer zu Bexten, B. Franczyk, N. Scherf, S. M. Hofmann",
+    "Title": "From Clever Hans to Hypotheses: Interpreting EEG foundational transformers",
+    "DOI": "10.48550/arXiv.2605.11885",
+    "Journal": "Foundation Models for the Brain and Body, NeurIPS 2026 Workshop"
+    },
+    {
+    "Publication Year": 2026,
+    "Author": "N. Torbati, M. Gaebler, S. M. Hofmann, N. Scherf",
+    "Title": "Geometry matters: Insights from Ollivier Ricci curvature and Ricci flow into representational alignment",
+    "Journal": "Proceedings of Machine Learning Research (PMLR), Vol. 282"
+    },
+    {
+    "Publication Year": 2026,
+    "Author": "S. M. Hofmann, A. Ciston, A. Koushik, F. Klotzsche, M. N. Hebart, K.-R. Müller, A. Villringer, N. Scherf, A. Hilsmann, V. V. Nikulin, M. Gaebler",
+    "Title": "Dynamic presentation in 3D modulates face similarity judgements: A human-aligned encoding model approach",
+    "DOI": "10.1098/rsos.251515",
+    "Journal": "Royal Society Open Science"
+    },
+    {
+    "Publication Year": 2026,
+    "Author": "N. Herzog, L. Vähäsarja, P. Reinfeld, N. Scherf, S. M. Hofmann, C. Andreou, A. Villringer, C. Mulert",
+    "Title": "From surface to depth: Using deep learning to predict striatal fMRI reward signaling from EEG",
+    "DOI": "10.1162/IMAG.a.1160",
+    "Journal": "Imaging Neuroscience"
+    },
+    {
+    "Publication Year": 2026,
+    "Author": "C. Beylier, A. Fleig, H. Selder, S. M. Hofmann, N. Scherf",
+    "Title": "Attention trajectories as a diagnostic axis for deep reinforcement learning",
+    "Journal": "Transactions on Machine Learning Research (TMLR)"
+    },
+    {
+    "Publication Year": 2025,
+    "Author": "S. M. Hofmann, O. Goltermann, N. Scherf, K.-R. Müller, M. Löffler, A. Villringer, M. Gaebler, A. V. Witte, F. Beyer",
+    "Title": "The utility of explainable AI for MRI analysis: Relating model predictions to neuroimaging features of the aging brain",
+    "DOI": "10.1162/imag_a_00497",
+    "Journal": "Imaging Neuroscience"
+    },
+    {
+    "Publication Year": 2024,
+    "Author": "C. Beylier, S. M. Hofmann, N. Scherf",
+    "Title": "Revealing the learning process in reinforcement learning agents through attention-oriented metrics",
+    "DOI": "10.48550/arXiv.2406.14324",
+    "Journal": "NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning (SciForDL)"
+    },
     {
     "Publication Year": 2023,
     "Author": "H. Schlögl, A. Villringer, K. Miehle, M. Fasshauer, M. Stumvoll, K. Mueller",
